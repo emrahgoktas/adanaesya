@@ -27,12 +27,12 @@ export function Logo({ variant = 'dark', priority = false, href = '/', className
       >
         <AppImage
           src="/logo.png"
-          alt="01 Taşımacılık - Evden Eve Nakliyat Logo"
-          width={200}
-          height={45}
+          alt="01 Taşımacılık Logo"
+          width={240}
+          height={80}
           priority={priority}
           sizes={IMAGE_SIZES.logoWide}
-          className="h-9 w-auto lg:h-10"
+          className="h-9 w-auto lg:h-11"
         />
       </span>
       <span className="sr-only">01 Taşımacılık Adana Eşya Depolama</span>
