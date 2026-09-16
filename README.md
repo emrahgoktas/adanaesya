@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Adana Eşya Depolama
 
-## Getting Started
+Adana'nın 15 ilçesinde hizmet veren eşya depolama firması için Next.js 16 ile geliştirilmiş kurumsal web sitesi.
 
-First, run the development server:
+## Teknolojiler
+
+- Next.js 16 (App Router)
+- TypeScript
+- Tailwind CSS 4
+- Framer Motion
+- MDX (blog için)
+- Vercel deployment
+
+## Kurulum
 
 ```bash
+git clone [repo-url]
+cd adana-esya-depolama
+npm install
+cp .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Geliştirme sunucusu varsayılan olarak [http://localhost:3000](http://localhost:3000) adresinde açılır. Ortam değişkenleri için `.env.example` dosyasına bakın.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Proje Yapısı
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+adana-esya-depolama/
+├── content/blog/              # MDX blog yazıları
+├── public/                    # Statik görseller (logo, OG, blog kapakları)
+├── src/
+│   ├── app/                   # App Router sayfaları ve metadata
+│   │   ├── api/contact/       # İletişim formu API
+│   │   ├── blog/              # Blog listesi ve [slug]
+│   │   ├── bolgeler/          # 15 ilçe landing sayfası
+│   │   ├── hizmetler/         # Hizmet landing sayfaları
+│   │   ├── fiyatlar/
+│   │   ├── hakkimizda/
+│   │   ├── iletisim/
+│   │   ├── tesekkurler/
+│   │   ├── kvkk/              # Yasal sayfalar (noindex)
+│   │   ├── sitemap.ts         # XML sitemap
+│   │   └── robots.ts
+│   ├── components/
+│   │   ├── blog/              # Callout, kapak, paylaşım
+│   │   ├── forms/             # ContactForm
+│   │   ├── layout/            # Header, Footer
+│   │   ├── sections/          # Hero, fiyat, SSS, ilçe grid
+│   │   ├── seo/               # JSON-LD, breadcrumb
+│   │   └── ui/                # Button, Logo, AppImage
+│   ├── data/                  # İlçeler, hizmetler, blog, SSS, fiyatlar
+│   ├── hooks/
+│   └── lib/                   # metadata, schema, analytics, mdx
+├── .env.example
+└── next.config.ts
+```
 
-## Learn More
+## SEO Stratejisi
 
-To learn more about Next.js, take a look at the following resources:
+- Her ilçe için ayrı landing page
+- Her hizmet için ayrı landing page
+- JSON-LD schema (LocalBusiness, SelfStorage, FAQPage, BreadcrumbList)
+- Otomatik sitemap
+- Optimize edilmiş metadata
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Vercel'e deploy: GitHub'a push → Vercel otomatik deploy
 
-## Deploy on Vercel
+## İletişim
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+info@adanadepolama.com

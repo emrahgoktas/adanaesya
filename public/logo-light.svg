@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none" role="img" aria-labelledby="logoLightTitle">
+  <title id="logoLightTitle">Adana Eşya Depolama</title>
+  <rect width="40" height="40" rx="8" fill="#ffffff" fill-opacity="0.12"/>
+  <path fill="#ffffff" d="M8.5 16.4V30a2 2 0 0 0 2 2h19a2 2 0 0 0 2-2V16.4a2 2 0 0 0-1.26-1.86l-8.5-3.4a2 2 0 0 0-1.48 0l-8.5 3.4A2 2 0 0 0 8.5 16.4Z"/>
+  <path stroke="#D32F2F" stroke-width="1.6" stroke-linecap="round" d="M13 28h14M13 23.5h14M13 19h14"/>
+</svg>
