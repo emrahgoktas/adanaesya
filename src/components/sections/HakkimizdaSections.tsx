@@ -15,9 +15,12 @@ import {
   Warehouse,
   type LucideIcon,
 } from 'lucide-react';
+import { AppImage } from '@/components/ui/AppImage';
 import { Card } from '@/components/ui/Card';
 import { Container } from '@/components/ui/Container';
 import { SectionTitle } from '@/components/ui/SectionTitle';
+import { SITE_IMAGES } from '@/data/site-images';
+import { IMAGE_SIZES } from '@/lib/images';
 
 const VALUES: { title: string; body: string; icon: LucideIcon }[] = [
   {
@@ -81,29 +84,51 @@ export function HakkimizdaStory() {
           subtitle="2018’den beri Sarıçam OSB’den Adana’nın 15 ilçesine kurumsal depolama."
           className="mb-8 lg:mb-10"
         />
-        <div className="max-w-3xl space-y-4 text-base leading-relaxed text-dark-gray/85 md:text-lg">
-          <p>
-            Adana Eşya Depolama, 2018 yılında Adana’da kurulmuş, 15 ilçede hizmet veren kurumsal bir
-            depolama firmasıdır. Sarıçam OSB’deki iklimlendirilmiş tesisimizde ev eşyası, mobilya,
-            ofis arşivi, öğrenci kolisi ve e-ticaret stoğunu 7/24 kamera izleme, alarm ve kontrollü
-            giriş altında saklarız. Kuruluşumuzdan bu yana tadilat, taşınma, yurt dönemi ve sezonluk
-            stok gibi kısa süreli ihtiyaçlarla yıllık kiralamayı aynı güvenlik standardında
-            birleştirerek Adana’nın dört bir yanına ulaştık.
-          </p>
-          <p>
-            Seyhan, Yüreğir, Çukurova ve Sarıçam başta olmak üzere Ceyhan’dan Yumurtalık’a kadar
-            keşif ücretsizdir. Koli sayısı, asansör ve site yasak saatleri yerinde not edilir; aynı
-            gün veya ertesi iş günü net teklif çıkar. Tesiste koridorlar personel refakati olmadan
-            dolaşıma kapalıdır. Teslim fotoğrafı ve envanter tutanağı hasar değerlendirmesinin
-            esasını oluşturur. Temel sigorta paketlerde dahildir; yüksek değerli eşya için ek poliçe
-            önerilir.
-          </p>
-          <p>
-            Tarifeyi şeffaf tutarız: ünite kirası ve temel sigorta pakette yazılır, paketleme ile
-            uzak ilçe seferi ayrı satırdır. Müşterilerimiz eşyalarına randevu ve yetkili listesi ile
-            ulaşır. Amacımız, Adana’daki bireysel ve kurumsal müşterilere güvenli, ekonomik ve esnek
-            depolama sunmak; gizli maliyet olmadan sözleşmede yazılanı sahada uygulamaktır.
-          </p>
+        <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:gap-12">
+          <div className="max-w-3xl space-y-4 text-base leading-relaxed text-dark-gray/85 md:text-lg">
+            <p>
+              Adana Eşya Depolama, 2018 yılında Adana’da kurulmuş, 15 ilçede hizmet veren kurumsal bir
+              depolama firmasıdır. Sarıçam OSB’deki iklimlendirilmiş tesisimizde ev eşyası, mobilya,
+              ofis arşivi, öğrenci kolisi ve e-ticaret stoğunu 7/24 kamera izleme, alarm ve kontrollü
+              giriş altında saklarız. Kuruluşumuzdan bu yana tadilat, taşınma, yurt dönemi ve sezonluk
+              stok gibi kısa süreli ihtiyaçlarla yıllık kiralamayı aynı güvenlik standardında
+              birleştirerek Adana’nın dört bir yanına ulaştık.
+            </p>
+            <p>
+              Seyhan, Yüreğir, Çukurova ve Sarıçam başta olmak üzere Ceyhan’dan Yumurtalık’a kadar
+              keşif ücretsizdir. Koli sayısı, asansör ve site yasak saatleri yerinde not edilir; aynı
+              gün veya ertesi iş günü net teklif çıkar. Tesiste koridorlar personel refakati olmadan
+              dolaşıma kapalıdır. Teslim fotoğrafı ve envanter tutanağı hasar değerlendirmesinin
+              esasını oluşturur. Temel sigorta paketlerde dahildir; yüksek değerli eşya için ek poliçe
+              önerilir.
+            </p>
+            <p>
+              Tarifeyi şeffaf tutarız: ünite kirası ve temel sigorta pakette yazılır, paketleme ile
+              uzak ilçe seferi ayrı satırdır. Müşterilerimiz eşyalarına randevu ve yetkili listesi ile
+              ulaşır. Amacımız, Adana’daki bireysel ve kurumsal müşterilere güvenli, ekonomik ve esnek
+              depolama sunmak; gizli maliyet olmadan sözleşmede yazılanı sahada uygulamaktır.
+            </p>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+            <figure className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-card sm:aspect-[3/4] lg:aspect-[4/5]">
+              <AppImage
+                src={SITE_IMAGES.facilityExterior.src}
+                alt={SITE_IMAGES.facilityExterior.alt}
+                fill
+                sizes={IMAGE_SIZES.gallery}
+                className="object-cover"
+              />
+            </figure>
+            <figure className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-card sm:aspect-[3/4] lg:aspect-[4/5]">
+              <AppImage
+                src={SITE_IMAGES.facilityUnit.src}
+                alt={SITE_IMAGES.facilityUnit.alt}
+                fill
+                sizes={IMAGE_SIZES.gallery}
+                className="object-cover"
+              />
+            </figure>
+          </div>
         </div>
       </Container>
     </section>

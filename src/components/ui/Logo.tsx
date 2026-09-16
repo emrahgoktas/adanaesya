@@ -16,37 +16,26 @@ export function Logo({ variant = 'dark', priority = false, href = '/', className
   return (
     <Link
       href={href}
-      className={cn(
-        'inline-flex items-center gap-2',
-        light ? 'text-white' : 'text-navy',
-        className
-      )}
+      className={cn('inline-flex items-center', className)}
+      aria-label="01 Taşımacılık Adana Eşya Depolama ana sayfa"
     >
-      <AppImage
-        src={light ? '/logo-light.svg' : '/logo.svg'}
-        alt=""
-        aria-hidden
-        width={40}
-        height={40}
-        priority={priority}
-        unoptimized
-        sizes={IMAGE_SIZES.logo}
-        className="size-9 lg:size-10"
-      />
-      <span className="leading-tight">
-        <span
-          className={cn(
-            'block text-sm font-extrabold tracking-tight lg:text-base',
-            light && 'text-white'
-          )}
-        >
-          Adana
-        </span>
-        <span className={cn('block text-[11px] font-semibold lg:text-xs', light ? 'text-white' : 'text-red')}>
-          Eşya Depolama
-        </span>
+      <span
+        className={cn(
+          'inline-flex overflow-hidden rounded-md',
+          light ? 'bg-black' : 'bg-black ring-1 ring-navy/10'
+        )}
+      >
+        <AppImage
+          src="/logo.png"
+          alt="01 Taşımacılık - Evden Eve Nakliyat Logo"
+          width={200}
+          height={45}
+          priority={priority}
+          sizes={IMAGE_SIZES.logoWide}
+          className="h-9 w-auto lg:h-10"
+        />
       </span>
-      <span className="sr-only"> ana sayfa</span>
+      <span className="sr-only">01 Taşımacılık Adana Eşya Depolama</span>
     </Link>
   );
 }

@@ -10,7 +10,7 @@ export const kvkkSections: LegalSection[] = [
     heading: '1. Veri sorumlusu',
     paragraphs: [
       'Bu aydınlatma metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) kapsamında veri sorumlusu sıfatıyla Adana Eşya Depolama (“Şirket”) tarafından hazırlanmış bir taslaktır. Metin avukat onayı bekleyen yer tutucudur; yürürlükteki nihai metin noter veya hukuk müşaviri onayı sonrasında güncellenecektir.',
-      'Veri sorumlusu unvanı: Adana Eşya Depolama. Tesis adresi: Sarıçam OSB Mah. 1. Cadde No:1, Sarıçam / Adana 01350. Elektronik posta: info@adanadepolama.com. Telefon: 0850 XXX XX XX.',
+      'Veri sorumlusu unvanı: Adana Eşya Depolama. Tesis adresi: Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana. Elektronik posta: info@adanaesyadepo.com. Telefon: 0549 215 13 15.',
     ],
   },
   {
@@ -55,7 +55,7 @@ export const kvkkSections: LegalSection[] = [
   {
     heading: '8. Başvuru usulü',
     paragraphs: [
-      'Başvurularınızı yazılı olarak tesis adresine, info@adanadepolama.com adresine veya KVKK ve Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ’deki diğer yöntemlerle iletebilirsiniz. Kimlik teyidi için gerekli bilgileri ekleyiniz. Başvurular kural olarak 30 gün içinde sonuçlandırılır. Ücretsizdir; işlemin ayrıca bir maliyet gerektirmesi halinde tebliğdeki tarife uygulanabilir.',
+      'Başvurularınızı yazılı olarak tesis adresine, info@adanaesyadepo.com adresine veya KVKK ve Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ’deki diğer yöntemlerle iletebilirsiniz. Kimlik teyidi için gerekli bilgileri ekleyiniz. Başvurular kural olarak 30 gün içinde sonuçlandırılır. Ücretsizdir; işlemin ayrıca bir maliyet gerektirmesi halinde tebliğdeki tarife uygulanabilir.',
       'Şikâyet hakkınız saklıdır: Kişisel Verileri Koruma Kurulu, www.kvkk.gov.tr.',
     ],
   },
@@ -65,7 +65,7 @@ export const gizlilikSections: LegalSection[] = [
   {
     heading: '1. Politikanın kapsamı',
     paragraphs: [
-      'Bu Gizlilik Politikası, adanadepolama.com alan adı ve bağlı alt sayfalar üzerinden toplanan kişisel veriler ile çevrimdışı (telefon, keşif, sözleşme) kanallarda toplanan müşteri verilerinin nasıl korunduğunu açıklar. Metin hukuki yer tutucudur; KVKK Aydınlatma Metni ile birlikte okunmalıdır.',
+      'Bu Gizlilik Politikası, adanaesyadepo.com alan adı ve bağlı alt sayfalar üzerinden toplanan kişisel veriler ile çevrimdışı (telefon, keşif, sözleşme) kanallarda toplanan müşteri verilerinin nasıl korunduğunu açıklar. Metin hukuki yer tutucudur; KVKK Aydınlatma Metni ile birlikte okunmalıdır.',
       'Siteyi kullanarak burada özetlenen işleme faaliyetlerinden haberdar olduğunuzu kabul edersiniz. Rıza gerektiren işlemler ayrıca onay kutusu veya çerez paneli ile toplanır.',
     ],
   },
@@ -100,13 +100,13 @@ export const gizlilikSections: LegalSection[] = [
   {
     heading: '6. Çocuklar',
     paragraphs: [
-      'Hizmetler 18 yaşından küçükler için tasarlanmamıştır. 18 yaş altı kişilere ait veri bilerek toplanmaz. Yanlışlıkla iletilmesi halinde silinmesini info@adanadepolama.com üzerinden talep ediniz.',
+      'Hizmetler 18 yaşından küçükler için tasarlanmamıştır. 18 yaş altı kişilere ait veri bilerek toplanmaz. Yanlışlıkla iletilmesi halinde silinmesini info@adanaesyadepo.com üzerinden talep ediniz.',
     ],
   },
   {
     heading: '7. Haklar ve iletişim',
     paragraphs: [
-      'KVKK m.11 haklarınız ve başvuru usulü KVKK Aydınlatma Metni’ndedir. Gizlilik talepleriniz için info@adanadepolama.com ve Sarıçam OSB Mah. 1. Cadde No:1, Sarıçam / Adana 01350 adreslerini kullanabilirsiniz.',
+      'KVKK m.11 haklarınız ve başvuru usulü KVKK Aydınlatma Metni’ndedir. Gizlilik talepleriniz için info@adanaesyadepo.com ve Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana adreslerini kullanabilirsiniz.',
     ],
   },
   {
@@ -162,7 +162,7 @@ export const cerezSections: LegalSection[] = [
   {
     heading: '7. İletişim',
     paragraphs: [
-      'Çerez ve izleme sorularınız için info@adanadepolama.com ve Sarıçam OSB Mah. 1. Cadde No:1, Sarıçam / Adana 01350 üzerinden bize ulaşın. Kişisel veri haklarınız KVKK Aydınlatma Metni’ndedir.',
+      'Çerez ve izleme sorularınız için info@adanaesyadepo.com ve Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana üzerinden bize ulaşın. Kişisel veri haklarınız KVKK Aydınlatma Metni’ndedir.',
     ],
   },
 ];
@@ -171,7 +171,7 @@ export const kullanimSections: LegalSection[] = [
   {
     heading: '1. Taraflar ve kabul',
     paragraphs: [
-      'Bu Kullanım Koşulları, adanadepolama.com sitesini ziyaret eden veya form gönderen kullanıcı ile Adana Eşya Depolama arasındaki site kullanımına ilişkindir. Depolama hizmetinin kendisi ayrıca imzalanacak kira / saklama sözleşmesi ve keşif tutanağına tabidir. Bu sayfa hukuki yer tutucudur.',
+      'Bu Kullanım Koşulları, adanaesyadepo.com sitesini ziyaret eden veya form gönderen kullanıcı ile Adana Eşya Depolama arasındaki site kullanımına ilişkindir. Depolama hizmetinin kendisi ayrıca imzalanacak kira / saklama sözleşmesi ve keşif tutanağına tabidir. Bu sayfa hukuki yer tutucudur.',
       'Siteyi kullanarak koşulları okuduğunuzu kabul etmiş sayılırsınız. Kabul etmiyorsanız siteyi kullanmayı bırakın.',
     ],
   },
@@ -179,7 +179,7 @@ export const kullanimSections: LegalSection[] = [
     heading: '2. Hizmetin niteliği',
     paragraphs: [
       'Sitede sunulan fiyatlar örnektir; gerçek tutar hacim, süre, ilçe, kat/asansör, paketleme ve sigorta seçeneklerine göre keşif sonrası netleşir. “Hemen teklif al” formu bağlayıcı sipariş değildir; teklif niteliğindedir.',
-      'Fiziksel depolama Sarıçam OSB Mah. 1. Cadde No:1 adresindeki tesiste, 7/24 kamera ve kontrollü giriş koşullarıyla yürütülür. Koridorlara refakatsiz giriş yoktur.',
+      'Fiziksel depolama Yeni Mahalle 87005 Sokak No:30 adresindeki tesiste, 7/24 kamera ve kontrollü giriş koşullarıyla yürütülür. Koridorlara refakatsiz giriş yoktur.',
     ],
   },
   {
@@ -212,7 +212,7 @@ export const kullanimSections: LegalSection[] = [
     heading: '7. Değişiklik, fesih ve uygulanacak hukuk',
     paragraphs: [
       'Koşullar önceden duyuru ile güncellenebilir. “Son güncelleme” tarihi bağlayıcı yayım tarihidir. Site kullanımı Türkiye Cumhuriyeti hukukuna tabidir. Uyuşmazlıklarda Adana mahkemeleri ve icra daireleri yetkilidir; tüketiciler için 6502 sayılı Kanun’daki haklar saklıdır.',
-      'Şikâyet ve bildirimler info@adanadepolama.com, 0850 XXX XX XX ve Sarıçam OSB Mah. 1. Cadde No:1, Sarıçam / Adana 01350 adresine iletilir.',
+      'Şikâyet ve bildirimler info@adanaesyadepo.com, 0549 215 13 15 ve Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana adresine iletilir.',
     ],
   },
 ];

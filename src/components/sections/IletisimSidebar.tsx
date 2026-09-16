@@ -1,7 +1,7 @@
 import { Clock, Mail, MapPin, Phone } from 'lucide-react';
 import { Card } from '@/components/ui/Card';
 import { EmbedFrame } from '@/components/ui/EmbedFrame';
-import { SITE_CONFIG } from '@/lib/constants';
+import { formatAddressLine, SITE_CONFIG } from '@/lib/constants';
 import { formatPhone } from '@/lib/utils';
 
 function whatsappHref(): string {
@@ -59,7 +59,7 @@ const SOCIAL_LINKS = [
 ] as const;
 
 export function IletisimSidebar() {
-  const addressLine = `${SITE_CONFIG.address.street}, ${SITE_CONFIG.address.district} / ${SITE_CONFIG.address.city} ${SITE_CONFIG.address.postalCode}`;
+  const addressLine = formatAddressLine();
   const whatsappLabel = formatPhone(SITE_CONFIG.whatsapp);
   const mapSrc = `https://maps.google.com/maps?q=${SITE_CONFIG.geo.latitude},${SITE_CONFIG.geo.longitude}&z=15&hl=tr&output=embed`;
 

@@ -54,7 +54,7 @@ function postalAddress(): JsonLdObject {
     streetAddress: SITE_CONFIG.address.street,
     addressLocality: SITE_CONFIG.address.district,
     addressRegion: SITE_CONFIG.address.city,
-    postalCode: SITE_CONFIG.address.postalCode,
+    ...(SITE_CONFIG.address.postalCode ? { postalCode: SITE_CONFIG.address.postalCode } : {}),
     addressCountry: SITE_CONFIG.address.country,
   };
 }
@@ -211,7 +211,7 @@ export function generateOrganizationSchema(): JsonLdObject {
     url: SITE_CONFIG.url,
     logo: {
       '@type': 'ImageObject',
-      url: `${SITE_CONFIG.url}/logo.svg`,
+      url: `${SITE_CONFIG.url}/logo.png`,
     },
     image: `${SITE_CONFIG.url}/og.jpg`,
     telephone: SITE_CONFIG.whatsapp,
@@ -359,7 +359,7 @@ export function generateArticleSchema(blog: SchemaBlog): JsonLdObject {
       name: SITE_CONFIG.name,
       logo: {
         '@type': 'ImageObject',
-        url: `${SITE_CONFIG.url}/logo.svg`,
+        url: `${SITE_CONFIG.url}/logo.png`,
       },
     },
     mainEntityOfPage: {

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: PAGE_TITLE,
     description: PAGE_DESCRIPTION,
-    url: 'https://adanadepolama.com/fiyatlar',
+    url: 'https://adanaesyadepo.com/fiyatlar',
     images: [{ url: '/og.jpg', width: 1200, height: 630 }],
   },
 };

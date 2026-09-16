@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: data.metaTitle,
       description: data.metaDescription,
-      url: `https://adanadepolama.com${getHizmetPath(data.slug)}`,
+      url: `https://adanaesyadepo.com${getHizmetPath(data.slug)}`,
       images: [{ url: `/og/${data.slug}.jpg`, width: 1200, height: 630 }],
     },
   };

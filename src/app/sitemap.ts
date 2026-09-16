@@ -1,10 +1,11 @@
 import type { MetadataRoute } from 'next';
-import { ilceler } from '@/data/ilceler';
-import { hizmetler } from '@/data/hizmetler';
 import { blogYazilari } from '@/data/blog';
+import { hizmetler } from '@/data/hizmetler';
+import { ilceler } from '@/data/ilceler';
+import { SITE_CONFIG } from '@/lib/constants';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://adanadepolama.com';
+  const baseUrl = SITE_CONFIG.url;
   const now = new Date();
 
   const staticPages: MetadataRoute.Sitemap = [

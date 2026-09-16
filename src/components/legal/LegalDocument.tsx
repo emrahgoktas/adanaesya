@@ -3,7 +3,7 @@ import { Mail, MapPin, Phone } from 'lucide-react';
 import { Breadcrumb } from '@/components/seo/Breadcrumb';
 import { Container } from '@/components/ui/Container';
 import { LEGAL_UPDATED_AT, type LegalSection } from '@/data/yasal';
-import { SITE_CONFIG } from '@/lib/constants';
+import { formatAddressLine, SITE_CONFIG } from '@/lib/constants';
 
 const LEGAL_LINKS = [
   { href: '/kvkk', label: 'KVKK Aydınlatma Metni' },
@@ -21,7 +21,7 @@ export interface LegalDocumentProps {
 }
 
 export function LegalDocument({ title, path, headingId, intro, sections }: LegalDocumentProps) {
-  const addressLine = `${SITE_CONFIG.address.street}, ${SITE_CONFIG.address.district} / ${SITE_CONFIG.address.city} ${SITE_CONFIG.address.postalCode}`;
+  const addressLine = formatAddressLine();
 
   return (
     <>

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: PAGE_TITLE,
     description: PAGE_DESCRIPTION,
-    url: 'https://adanadepolama.com/bolgeler',
+    url: 'https://adanaesyadepo.com/bolgeler',
     images: [{ url: '/og.jpg', width: 1200, height: 630 }],
   },
 };

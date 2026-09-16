@@ -6,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function formatPhone(phone: string): string {
-  // +905XXXXXXXXX -> 0850 XXX XX XX formatına çevir
+  // +905XXXXXXXXX -> 0549 215 13 15 formatına çevir
   const cleaned = phone.replace(/\D/g, '');
   if (cleaned.startsWith('90') && cleaned.length >= 12) {
     const local = cleaned.slice(2);

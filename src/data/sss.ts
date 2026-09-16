@@ -38,7 +38,7 @@ export const genelSSS: SSSItem[] = [
     id: 'sss-5',
     soru: 'Depo tesisiniz nerede, hangi ilçelere hizmet veriyorsunuz?',
     cevap:
-      'Tesisimiz Sarıçam OSB Mah. 1. Cadde No:1 adresindedir. Seyhan, Yüreğir, Çukurova ve Sarıçam başta olmak üzere Adana’nın 15 ilçesine keşif ve teslim planlarız.',
+      'Tesisimiz Yeni Mahalle 87005 Sokak No:30 adresindedir. Seyhan, Yüreğir, Çukurova ve Sarıçam başta olmak üzere Adana’nın 15 ilçesine keşif ve teslim planlarız.',
     kategori: 'genel',
   },
   {
@@ -157,7 +157,7 @@ export const genelSSS: SSSItem[] = [
     id: 'sss-22',
     soru: 'Tesisinizi ziyaret etmek için randevu gerekir mi?',
     cevap:
-      'Evet. Sarıçam OSB Mah. 1. Cadde No:1 adresindeki üniteler kontrollü giriştedir. Koridor gezisi personel refakati ve kimlik kaydı ile randevuya bağlanır; kapıdan rastgele giriş yoktur.',
+      'Evet. Yeni Mahalle 87005 Sokak No:30 adresindeki üniteler kontrollü giriştedir. Koridor gezisi personel refakati ve kimlik kaydı ile randevuya bağlanır; kapıdan rastgele giriş yoktur.',
     kategori: 'iletisim',
   },
   {
@@ -171,14 +171,14 @@ export const genelSSS: SSSItem[] = [
     id: 'sss-24',
     soru: 'Adresiniz neresi, nasıl gelirim?',
     cevap:
-      'Tesis Sarıçam OSB Mah. 1. Cadde No:1, Sarıçam / Adana 01350 adresindedir. Harita bu sayfadadır. Kendi aracınızla bırakma veya randevulu evden alım planlanır; OSB giriş kurallarına uyulur.',
+      'Tesis Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana adresindedir. Harita bu sayfadadır. Kendi aracınızla bırakma veya randevulu evden alım planlanır; OSB giriş kurallarına uyulur.',
     kategori: 'iletisim',
   },
   {
     id: 'sss-25',
     soru: 'Sözleşme ve faturayı nasıl teslim alırım?',
     cevap:
-      'Bireysel kiralamada sözleşme ve dekont, kurumsalda ticari fatura kesilir. E-posta info@adanadepolama.com ve kayıtlı telefon üzerinden PDF iletilir; ıslak imza randevuda da alınabilir.',
+      'Bireysel kiralamada sözleşme ve dekont, kurumsalda ticari fatura kesilir. E-posta info@adanaesyadepo.com ve kayıtlı telefon üzerinden PDF iletilir; ıslak imza randevuda da alınabilir.',
     kategori: 'iletisim',
   },
 ];

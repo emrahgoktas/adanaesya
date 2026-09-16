@@ -40,13 +40,13 @@ html {
 }
 
 .hero {
-  min-height: 28rem;
-  background: linear-gradient(135deg, #0a2540 0%, #1b4f8a 100%);
+  min-height: min(92svh, 44rem);
+  background: #0a2540;
 }
 
 @media (min-width: 1024px) {
   .hero {
-    min-height: 36rem;
+    min-height: min(88svh, 48rem);
   }
 }
 
@@ -161,11 +161,6 @@ a:focus:not(:focus-visible) {
 .hero .ad-headline,
 .hero .seo-headline {
   color: #fff;
-}
-
-.ad-headline,
-.seo-headline {
-  display: inline;
 }
 
 .ad-headline {

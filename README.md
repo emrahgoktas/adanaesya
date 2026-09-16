@@ -70,4 +70,4 @@ Vercel'e deploy: GitHub'a push → Vercel otomatik deploy
 
 ## İletişim
 
-info@adanadepolama.com
+info@adanaesyadepo.com

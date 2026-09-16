@@ -1,13 +1,13 @@
 'use client';
 
 import { trackEvent } from '@/lib/analytics';
+import { SITE_CONFIG } from '@/lib/constants';
+import { formatPhone } from '@/lib/utils';
 
-const WHATSAPP_NUMBER = '05492151315';
-const WHATSAPP_DISPLAY = '0549 215 13 15';
 const WHATSAPP_TEXT = 'Merhaba, eşya depolama hakkında bilgi almak istiyorum';
 
 function whatsappHref(): string {
-  const digits = WHATSAPP_NUMBER.replace(/\D/g, '');
+  const digits = SITE_CONFIG.whatsapp.replace(/\D/g, '');
   const international = digits.startsWith('90') ? digits : `90${digits.replace(/^0/, '')}`;
   return `https://wa.me/${international}?text=${encodeURIComponent(WHATSAPP_TEXT)}`;
 }
@@ -21,7 +21,8 @@ function WhatsAppIcon() {
 }
 
 export function WhatsAppButton() {
-  const label = `WhatsApp ile iletişime geç, ${WHATSAPP_DISPLAY}`;
+  const display = formatPhone(SITE_CONFIG.whatsapp);
+  const label = `WhatsApp ile iletişime geç, ${display}`;
 
   return (
     <aside aria-label="Hızlı iletişim">
@@ -38,7 +39,6 @@ export function WhatsAppButton() {
         <WhatsAppIcon />
         <span className="pointer-events-none absolute right-full mr-3 hidden w-max rounded-lg bg-navy px-3 py-2 text-left text-xs font-medium text-white opacity-0 shadow-card transition-opacity duration-200 group-hover:opacity-100 group-focus-visible:opacity-100 sm:block">
           WhatsApp ile iletişime geç
-          <span className="mt-0.5 block font-normal text-white/80">{WHATSAPP_DISPLAY}</span>
         </span>
       </a>
     </aside>

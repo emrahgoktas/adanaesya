@@ -15,7 +15,7 @@ import {
 
 const PAGE_TITLE = 'İletişim | Adana Eşya Depolama';
 const PAGE_DESCRIPTION =
-  'Adana Eşya Depolama iletişim: Sarıçam OSB Mah. 1. Cadde No:1. Form, WhatsApp 0549 215 13 15 ve e-posta ile ücretsiz keşif alın. 7/24 randevu ve harita bu sayfada.';
+  'Adana Eşya Depolama iletişim: Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana. Form, WhatsApp 0549 215 13 15 ve info@adanaesyadepo.com ile ücretsiz keşif alın.';
 
 const iletisimSSS = getSSSByKategori('iletisim');
 
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: PAGE_TITLE,
     description: PAGE_DESCRIPTION,
-    url: 'https://adanadepolama.com/iletisim',
+    url: 'https://adanaesyadepo.com/iletisim',
     images: [{ url: '/og.jpg', width: 1200, height: 630 }],
   },
 };

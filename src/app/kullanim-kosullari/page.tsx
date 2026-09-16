@@ -20,7 +20,7 @@ export default function KullanimKosullariPage() {
       title={TITLE}
       path={PATH}
       headingId="kosullar-baslik"
-      intro="adanadepolama.com sitesinin kullanımına ilişkin taslak koşullar. Fiziksel depolama ayrı sözleşmeye tabidir."
+      intro="adanaesyadepo.com sitesinin kullanımına ilişkin taslak koşullar. Fiziksel depolama ayrı sözleşmeye tabidir."
       sections={kullanimSections}
     />
   );

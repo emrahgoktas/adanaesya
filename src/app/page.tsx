@@ -29,6 +29,9 @@ const Testimonials = dynamic(() =>
 const FAQAccordion = dynamic(() =>
   import('@/components/sections/FAQAccordion').then((mod) => ({ default: mod.FAQAccordion }))
 );
+const FacilityGallery = dynamic(() =>
+  import('@/components/sections/FacilityGallery').then((mod) => ({ default: mod.FacilityGallery }))
+);
 
 export const metadata: Metadata = {
   title: 'Adana Eşya Depolama | Güvenli ve Sigortalı Depo Hizmeti',
@@ -51,10 +54,10 @@ export default function HomePage() {
         ctaPrimary={{ text: 'Hemen Teklif Al', href: '/iletisim' }}
         ctaSecondary={{ text: 'Fiyatları Gör', href: '/fiyatlar' }}
         phone={SITE_CONFIG.phone}
-        badge="15 İlçede Hizmet"
       />
       <TrustBar />
       <ServiceCards services={hizmetler} />
+      <FacilityGallery />
       <DistrictGrid districts={ilceler} />
       <PricingTable />
       <Testimonials />

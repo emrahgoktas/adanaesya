@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Logo } from '@/components/ui/Logo';
 import { hizmetler } from '@/data/hizmetler';
 import { getIlcePath, ilceler } from '@/data/ilceler';
-import { SITE_CONFIG } from '@/lib/constants';
+import { formatAddressLine, SITE_CONFIG } from '@/lib/constants';
 
 const linkClass =
   'text-sm text-white/90 transition-colors hover:text-white hover:underline focus-visible:outline-red';
@@ -64,7 +64,7 @@ function YouTubeIcon() {
 }
 
 export function Footer() {
-  const addressLine = `${SITE_CONFIG.address.street}, ${SITE_CONFIG.address.district} / ${SITE_CONFIG.address.city} ${SITE_CONFIG.address.postalCode}`;
+  const addressLine = formatAddressLine();
 
   return (
     <footer className="bg-navy text-white" aria-labelledby="footer-heading">
