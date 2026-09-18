@@ -31,7 +31,7 @@ export function HeroContent({
   badge,
   illustration,
 }: HeroProps & { illustration: ReactNode }) {
-  const phoneLabel = formatPhone(phone);
+  const phoneLabel = phone ? formatPhone(phone) : null;
 
   return (
     <section
@@ -75,14 +75,16 @@ export function HeroContent({
               </Button>
             ) : null}
           </div>
-          <a
-            href={`tel:${phone}`}
-            className="mt-6 inline-flex items-center gap-2 text-base font-semibold text-white hover:underline"
-            aria-label={`Hemen ara: ${phoneLabel}`}
-          >
-            <Phone aria-hidden className="size-5" />
-            {phoneLabel}
-          </a>
+          {phone && phoneLabel ? (
+            <a
+              href={`tel:${phone}`}
+              className="mt-6 inline-flex items-center gap-2 text-base font-semibold text-white hover:underline"
+              aria-label={`Hemen ara: ${phoneLabel}`}
+            >
+              <Phone aria-hidden className="size-5" />
+              {phoneLabel}
+            </a>
+          ) : null}
         </div>
 
         <div className="flex justify-center lg:justify-end">{illustration}</div>
