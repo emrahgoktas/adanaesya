@@ -13,12 +13,12 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 const FACTORS: { title: string; body: string; icon: LucideIcon }[] = [
   {
     title: 'Depo hacmi',
-    body: 'Aylık tarife m³ ile yükselir. 1 m³ Başlangıç, 5 m³ Standart, 10 m³ Premium ve 20 m³ üzeri Kurumsal paketleri vardır.',
+    body: 'Teklif m³ ihtiyacına göre yazılır. 1 m³ Başlangıç, 5 m³ Standart, 10 m³ Premium ve 20 m³ üzeri Kurumsal paketleri vardır.',
     icon: Box,
   },
   {
     title: 'Kiralama süresi',
-    body: 'Minimum süre 1 aydır. 6 ve 12 aylık kiralamada birim fiyat düşer; yıllık tarifede yaklaşık iki ay avantaj uygulanır.',
+    body: 'Minimum süre 1 aydır. 6 ve 12 aylık kiralamada birim tarife avantajlıdır; güncel oran keşif teklifinde netleşir.',
     icon: CalendarDays,
   },
   {

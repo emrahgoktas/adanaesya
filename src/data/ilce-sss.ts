@@ -19,19 +19,19 @@ export function getIlceSSS(ilce: Ilce): SSSItem[] {
     {
       id: `${ilce.slug}-sss-1`,
       soru: `${loc} eşya depolama fiyatları ne kadar?`,
-      cevap: `${loc} eşya depolama ücreti ünite hacmine ve süreye göre değişir. 1 m³ aylık 750 TL’den başlar; Standart paket 5 m³ için 2.250 TL’dir. ${m0} ve ${m1} mahallelerine ücretsiz keşif sonrası net teklif yazılır.`,
+      cevap: `${loc} eşya depolama ücreti ünite hacmine ve süreye göre değişir. Fiyat sitede yayınlanmaz; ${m0} ve ${m1} mahallelerine ücretsiz keşif sonrası yazılı net teklif iletilir.`,
       kategori: 'fiyat',
     },
     {
       id: `${ilce.slug}-sss-2`,
       soru: `${ablative(ilce.name)} depoya teslimat ne kadar sürer?`,
-      cevap: `Sarıçam OSB’deki tesisimiz ${ilce.name} merkezine ${sure} ulaşır. ${neden} Keşif gününde yükleme saati netleşir; dar sokaklarda kamyonet planlanır.`,
+      cevap: `Seyhan Yeni Mahalle’deki tesisimiz ${ilce.name} merkezine ${sure} ulaşır. ${neden} Keşif gününde yükleme saati netleşir; dar sokaklarda kamyonet planlanır.`,
       kategori: 'lojistik',
     },
     {
       id: `${ilce.slug}-sss-3`,
       soru: `${m0}, ${m1} ve ${m2} mahallelerine hizmet var mı?`,
-      cevap: `Evet. ${gen} ${mahalleler.slice(0, 4).join(', ')} başta olmak üzere listedeki tüm mahallelere keşif ve taşıma desteği veriyoruz. Site otoparkı veya dar sokak için uygun araç seçilir.`,
+      cevap: `Evet. ${gen} ${mahalleler.slice(0, 4).join(', ')} başta olmak üzere listedeki tüm mahallelere ücretsiz keşif ve randevulu taşıma (ücretli) veriyoruz. Site otoparkı veya dar sokak için uygun araç seçilir.`,
       kategori: 'hizmet',
     },
     {

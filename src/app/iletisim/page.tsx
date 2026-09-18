@@ -15,7 +15,7 @@ import {
 
 const PAGE_TITLE = 'İletişim | Adana Eşya Depolama';
 const PAGE_DESCRIPTION =
-  'Adana Eşya Depolama iletişim: Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana. Form, WhatsApp 0549 215 13 15 ve info@adanaesyadepo.com ile ücretsiz keşif alın.';
+  'Adana Eşya Depolama iletişim: Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana. Form, 0549 215 13 15, 0322 456 00 76 ve info@adanaesyadepo.com ile ücretsiz keşif alın.';
 
 const iletisimSSS = getSSSByKategori('iletisim');
 

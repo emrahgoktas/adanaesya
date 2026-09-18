@@ -16,7 +16,7 @@ export function IlceNeighborhoods({ ilce }: IlceNeighborhoodsProps) {
         <SectionTitle
           id={headingId}
           title={`${ilce.name} Mahallelerinde Eşya Depolama`}
-          subtitle="Aşağıdaki mahallelere ücretsiz keşif ve taşıma desteği veriyoruz."
+          subtitle="Aşağıdaki mahallelere ücretsiz keşif ve randevulu taşıma planlıyoruz."
           className="mb-8 lg:mb-10"
         />
         <ul className="flex flex-wrap gap-3">

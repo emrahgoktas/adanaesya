@@ -152,6 +152,12 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex gap-3">
+                <Phone aria-hidden className="text-red mt-0.5 size-4 shrink-0" />
+                <a href={`tel:${SITE_CONFIG.phoneLandline}`} className={linkClass}>
+                  {SITE_CONFIG.phoneLandlineDisplay}
+                </a>
+              </li>
+              <li className="flex gap-3">
                 <Mail aria-hidden className="text-red mt-0.5 size-4 shrink-0" />
                 <a href={`mailto:${SITE_CONFIG.email}`} className={linkClass}>
                   {SITE_CONFIG.email}

@@ -45,7 +45,7 @@ export default function TesekkurlerPage() {
           Talebiniz alındı, 1 saat içinde dönüş yapacağız.
         </p>
         <p className="mt-3 max-w-xl text-base text-dark-gray/80">
-          Formunuz Sarıçam OSB ekibimize ulaştı. Acil isterseniz WhatsApp veya telefonla da
+          Formunuz Seyhan ekibimize ulaştı. Acil isterseniz WhatsApp veya telefonla da
           yazabilirsiniz.
         </p>
 

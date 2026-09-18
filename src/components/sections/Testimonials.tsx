@@ -12,25 +12,25 @@ const TESTIMONIALS = [
     name: 'Elif K.',
     district: 'Seyhan',
     quote:
-      'Tadilat süresince tüm eşyamızı teslim ettik. Envanter tutanağı ve kamera güveni sayesinde içimiz rahat kaldı.',
+      'Mutfak yenilerken koltukları merdiven boşluğuna yığmak istemedik. Gelip ölçtüler, iki gün sonra tesise aldılar. Ara sıra WhatsApp’tan fotoğraf da yolladılar; aklımız kalmadı.',
   },
   {
     name: 'Mert A.',
     district: 'Çukurova',
     quote:
-      'Yazın yurttan çıkan oğlumuzun kolilerini uygun fiyata sakladık. Teslim ve iade günü planlı ve sorunsuzdu.',
+      'Oğlum yurttan çıkınca kolileri eve taşımak zor geliyordu. Yaz boyunca sakladılar, Eylül’de kampüse bıraktılar. Fiyatı baştan konuştuk, sonradan ek çıkmadı.',
   },
   {
     name: 'Selin D.',
     district: 'Yüreğir',
     quote:
-      'Koltuk takımı nemden etkilenmeden durdu. Keşif ücretsizdi, fiyat da peşin netleşti; gizli masraf çıkmadı.',
+      'Koltuk takımı nemli bodrumda bozulmasın diye verdik. Birkaç ay sonra aldığımızda kılıflar yerindeydi. Keşfe gelen arkadaş işini bilen biriydi, abartısız konuştu.',
   },
   {
     name: 'Hakan Y.',
     district: 'Sarıçam',
     quote:
-      'Ofis arşivini OSB’deki depoya aldık. Yetkili listesi ve fatura düzeni kurumsal ihtiyaçlarımıza uydu.',
+      'Ofis taşırken arşiv kutularını ayırdık. Kimlerin kutuya ulaşabileceği yazılıydı; fatura da düzgün kesildi. Kurumsal işimiz için yeterliydi.',
   },
 ] as const;
 
@@ -47,7 +47,7 @@ export function Testimonials() {
           align="center"
           className="mb-10 lg:mb-12"
           title="Müşterilerimiz Ne Diyor?"
-          subtitle="Adana’nın dört bir yanından sigortalı depolama deneyimleri"
+          subtitle="Kısa notlar — gerçek depolama deneyimlerinden"
         />
 
         <motion.ul

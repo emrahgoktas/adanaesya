@@ -7,7 +7,7 @@ import { SITE_CONFIG } from '@/lib/constants';
 
 function whatsappHref(hizmetName: string): string {
   const digits = SITE_CONFIG.whatsapp.replace(/\D/g, '');
-  const text = encodeURIComponent(`Merhaba, ${hizmetName} hakkında fiyat ve keşif almak istiyorum`);
+  const text = encodeURIComponent(`Merhaba, ${hizmetName} hakkında ücretsiz keşif ve teklif almak istiyorum`);
   const base = digits.length >= 11 ? `https://wa.me/${digits}` : 'https://wa.me/';
   return `${base}?text=${text}`;
 }
@@ -17,7 +17,7 @@ export interface HizmetPricingProps {
 }
 
 export function HizmetPricing({ hizmet }: HizmetPricingProps) {
-  const headingId = `${hizmet.slug}-fiyat`;
+  const headingId = `${hizmet.slug}-teklif`;
 
   return (
     <section className="bg-gray" aria-labelledby={headingId}>
@@ -25,8 +25,8 @@ export function HizmetPricing({ hizmet }: HizmetPricingProps) {
         <SectionTitle
           id={headingId}
           align="center"
-          title="Fiyat Bilgisi"
-          subtitle="Keşif sonrası net teklif; aşağıdaki aralık başlangıç tarifesidir."
+          title="Teklif alın"
+          subtitle="Fiyat sitede yayınlanmaz; hacim, süre ve taşıma keşif sonrası net yazılır."
           className="mb-8 lg:mb-10"
         />
         <div className="mx-auto max-w-2xl rounded-lg border border-navy/10 bg-white p-8 text-center shadow-card lg:p-10">
@@ -35,7 +35,7 @@ export function HizmetPricing({ hizmet }: HizmetPricingProps) {
             {hizmet.fiyatAraligi}
           </p>
           <p className="mt-3 text-sm text-dark-gray/70">
-            Fiyatlar örnektir; hacim, süre ve taşıma keşifte netleşir.
+            Ücretsiz keşif için formu doldurun veya WhatsApp’tan yazın.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Button asChild variant="primary" size="lg">

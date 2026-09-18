@@ -25,7 +25,7 @@ import { cn, debounce } from '@/lib/utils';
 
 const NAV_LINKS = [
   { href: '/', label: 'Ana Sayfa' },
-  { href: '/fiyatlar', label: 'Fiyatlar' },
+  { href: '/fiyatlar', label: 'Teklif Al' },
   { href: '/blog', label: 'Blog' },
   { href: '/iletisim', label: 'İletişim' },
 ] as const;
@@ -353,12 +353,21 @@ export function Header() {
         <div className="flex items-center gap-3">
           <a
             href={`tel:${SITE_CONFIG.phone}`}
-            className="text-navy hover:text-red hidden items-center gap-2 text-sm font-semibold lg:inline-flex"
+            className="text-navy hover:text-red hidden items-center gap-2 text-sm font-semibold xl:inline-flex"
             aria-label={`Telefon: ${SITE_CONFIG.phoneDisplay}`}
             onClick={() => trackEvent('phone_click', 'engagement', 'Header Phone')}
           >
             <Phone aria-hidden className="text-red size-4" />
             {SITE_CONFIG.phoneDisplay}
+          </a>
+          <a
+            href={`tel:${SITE_CONFIG.phoneLandline}`}
+            className="text-navy hover:text-red hidden items-center gap-2 text-sm font-semibold lg:inline-flex"
+            aria-label={`Sabit hat: ${SITE_CONFIG.phoneLandlineDisplay}`}
+            onClick={() => trackEvent('phone_click', 'engagement', 'Header Landline')}
+          >
+            <Phone aria-hidden className="text-red size-4" />
+            {SITE_CONFIG.phoneLandlineDisplay}
           </a>
           <Button asChild size="sm" className="hidden sm:inline-flex">
             <Link href="/iletisim">Teklif Al</Link>
@@ -535,6 +544,15 @@ export function Header() {
                 >
                   <Phone aria-hidden className="text-red size-4" />
                   {SITE_CONFIG.phoneDisplay}
+                </a>
+                <a
+                  href={`tel:${SITE_CONFIG.phoneLandline}`}
+                  className="text-navy flex items-center justify-center gap-2 text-sm font-semibold"
+                  aria-label={`Sabit hat: ${SITE_CONFIG.phoneLandlineDisplay}`}
+                  onClick={() => trackEvent('phone_click', 'engagement', 'Header Landline')}
+                >
+                  <Phone aria-hidden className="text-red size-4" />
+                  {SITE_CONFIG.phoneLandlineDisplay}
                 </a>
                 <Button asChild className="w-full">
                   <Link href="/iletisim" onClick={closeMobile}>

@@ -27,7 +27,7 @@ const linkClass = 'text-sm text-dark-gray/80 hover:text-red';
 const KURUMSAL = [
   { href: '/', label: 'Ana Sayfa' },
   { href: '/hakkimizda', label: 'Hakkımızda' },
-  { href: '/fiyatlar', label: 'Fiyatlar' },
+  { href: '/fiyatlar', label: 'Paketler / Teklif' },
   { href: '/iletisim', label: 'İletişim' },
   { href: '/blog', label: 'Blog' },
   { href: '/hizmetler', label: 'Hizmetler' },

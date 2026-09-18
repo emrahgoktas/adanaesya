@@ -8,8 +8,8 @@ import { Button } from '@/components/ui/Button';
 import { Container } from '@/components/ui/Container';
 import { AppImage } from '@/components/ui/AppImage';
 import { SITE_IMAGES } from '@/data/site-images';
+import { SITE_CONFIG } from '@/lib/constants';
 import { IMAGE_SIZES } from '@/lib/images';
-import { formatPhone } from '@/lib/utils';
 import type { HeroCta, HeroProps } from '@/components/sections/HeroContent';
 
 export type { HeroCta, HeroProps };
@@ -22,9 +22,7 @@ export function Hero({
   subtitle,
   ctaPrimary,
   ctaSecondary,
-  phone,
 }: HeroProps) {
-  const phoneLabel = formatPhone(phone);
   const reduceMotion = useReducedMotion();
   const [index, setIndex] = useState(0);
 
@@ -86,7 +84,14 @@ export function Hero({
           <p className="mt-5 max-w-xl text-base text-white/92 md:text-lg drop-shadow-sm">{subtitle}</p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <Button asChild variant="primary" size="lg">
-              <Link href={ctaPrimary.href}>{ctaPrimary.text}</Link>
+              {ctaPrimary.href.startsWith('tel:') ? (
+                <a href={ctaPrimary.href} aria-label={`Hemen ara: ${ctaPrimary.text}`}>
+                  <Phone aria-hidden className="size-5" />
+                  {ctaPrimary.text}
+                </a>
+              ) : (
+                <Link href={ctaPrimary.href}>{ctaPrimary.text}</Link>
+              )}
             </Button>
             {ctaSecondary ? (
               <Button
@@ -95,18 +100,23 @@ export function Hero({
                 size="lg"
                 className="border-white/80 bg-white/10 text-white backdrop-blur-sm hover:bg-white hover:text-navy"
               >
-                <Link href={ctaSecondary.href}>{ctaSecondary.text}</Link>
+                {ctaSecondary.href.startsWith('tel:') ? (
+                  <a href={ctaSecondary.href}>{ctaSecondary.text}</a>
+                ) : (
+                  <Link href={ctaSecondary.href}>{ctaSecondary.text}</Link>
+                )}
               </Button>
             ) : null}
           </div>
-          <a
-            href={`tel:${phone}`}
-            className="mt-6 inline-flex items-center gap-2 text-base font-semibold text-white hover:underline"
-            aria-label={`Hemen ara: ${phoneLabel}`}
-          >
-            <Phone aria-hidden className="size-5" />
-            {phoneLabel}
-          </a>
+          <p className="mt-6 text-sm text-white/85">
+            Sabit hat:{' '}
+            <a
+              href={`tel:${SITE_CONFIG.phoneLandline}`}
+              className="font-semibold text-white hover:underline"
+            >
+              {SITE_CONFIG.phoneLandlineDisplay}
+            </a>
+          </p>
         </div>
 
         <div className="mt-10 flex gap-2" aria-label="Hero görselleri">

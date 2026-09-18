@@ -17,7 +17,7 @@ export function AdanaMap() {
         </h2>
         <span aria-hidden className="mt-3 mb-4 block h-1 w-16 rounded-full bg-red" />
         <p className="mb-8 max-w-2xl text-base text-dark-gray/80">
-          Tesisimiz Sarıçam OSB’de; Seyhan, Yüreğir, Çukurova ve 12 ilçeye keşif ve teslimat
+          Tesisimiz Seyhan Yeni Mahalle’de; Seyhan, Yüreğir, Çukurova ve 12 ilçeye keşif ve teslimat
           planlıyoruz.
         </p>
         <EmbedFrame

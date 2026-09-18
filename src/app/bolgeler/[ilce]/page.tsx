@@ -82,7 +82,7 @@ export default async function IlcePage({ params }: Props) {
         seoHeadline={data.seoHeadline}
         subtitle={firstParagraph(data.aciklama)}
         ctaPrimary={{ text: 'Hemen Teklif Al', href: '/iletisim' }}
-        ctaSecondary={{ text: 'Fiyatları Gör', href: '/fiyatlar' }}
+        ctaSecondary={{ text: 'Teklif Al', href: '/fiyatlar' }}
         phone={SITE_CONFIG.whatsapp}
         badge={`${locative(data.name)} Hizmet`}
       />

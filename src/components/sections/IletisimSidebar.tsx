@@ -83,6 +83,15 @@ export function IletisimSidebar() {
               </a>
             </li>
             <li className="flex gap-3">
+              <Phone aria-hidden className="mt-0.5 size-5 shrink-0 text-red" />
+              <a
+                href={`tel:${SITE_CONFIG.phoneLandline}`}
+                className="font-medium text-navy hover:text-red"
+              >
+                {SITE_CONFIG.phoneLandlineDisplay}
+              </a>
+            </li>
+            <li className="flex gap-3">
               <Mail aria-hidden className="mt-0.5 size-5 shrink-0 text-red" />
               <a href={`mailto:${SITE_CONFIG.email}`} className="font-medium text-navy hover:text-red">
                 {SITE_CONFIG.email}

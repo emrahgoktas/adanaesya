@@ -6,7 +6,7 @@ export function HeroImage() {
     <div className="hero-media relative w-full max-w-lg overflow-hidden rounded-lg shadow-card">
       <AppImage
         src="/images/hero-depo.jpg"
-        alt="Adana Sarıçam OSB’de güvenli eşya deposu ve koli üniteleri"
+        alt="Adana Seyhan Yeni Mahalle’de güvenli eşya deposu ve koli üniteleri"
         fill
         priority
         sizes={IMAGE_SIZES.hero}

@@ -64,7 +64,7 @@ const CERTIFICATES: { title: string; status: string; icon: LucideIcon }[] = [
   { title: 'ISO 9001 kalite yönetimi', status: 'Belge kopyası yakında', icon: Award },
   { title: 'Yangın ve iş güvenliği', status: 'Tesis dosyası yakında', icon: FileBadge },
   { title: 'Depo sigorta poliçesi', status: 'Özet belge yakında', icon: ShieldCheck },
-  { title: 'OSB giriş ve işletme kaydı', status: 'Kayıt belgesi yakında', icon: Warehouse },
+  { title: 'İşletme ve tesis kayıtları', status: 'Kayıt belgesi yakında', icon: Warehouse },
 ];
 
 const STATS: { value: string; label: string; icon: LucideIcon }[] = [
@@ -81,14 +81,14 @@ export function HakkimizdaStory() {
         <SectionTitle
           id="hikaye-baslik"
           title="Şirket hikâyemiz"
-          subtitle="2018’den beri Sarıçam OSB’den Adana’nın 15 ilçesine kurumsal depolama."
+          subtitle="2018’den beri Seyhan Yeni Mahalle’den Adana’nın 15 ilçesine kurumsal depolama."
           className="mb-8 lg:mb-10"
         />
         <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:gap-12">
           <div className="max-w-3xl space-y-4 text-base leading-relaxed text-dark-gray/85 md:text-lg">
             <p>
               Adana Eşya Depolama, 2018 yılında Adana’da kurulmuş, 15 ilçede hizmet veren kurumsal bir
-              depolama firmasıdır. Sarıçam OSB’deki iklimlendirilmiş tesisimizde ev eşyası, mobilya,
+              depolama firmasıdır. Seyhan Yeni Mahalle’deki iklimlendirilmiş tesisimizde ev eşyası, mobilya,
               ofis arşivi, öğrenci kolisi ve e-ticaret stoğunu 7/24 kamera izleme, alarm ve kontrollü
               giriş altında saklarız. Kuruluşumuzdan bu yana tadilat, taşınma, yurt dönemi ve sezonluk
               stok gibi kısa süreli ihtiyaçlarla yıllık kiralamayı aynı güvenlik standardında

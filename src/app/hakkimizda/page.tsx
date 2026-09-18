@@ -16,7 +16,7 @@ import { SITE_CONFIG } from '@/lib/constants';
 
 const PAGE_TITLE = 'Hakkımızda | Adana Eşya Depolama';
 const PAGE_DESCRIPTION =
-  'Adana Eşya Depolama; Sarıçam OSB’de 10.000 m² depo alanı ve 7/24 güvenlik. 15 ilçede 500+ müşteriye sigortalı saklama. Misyon, vizyon ve değerlerimizi okuyun.';
+  'Adana Eşya Depolama; Seyhan Yeni Mahalle’de 10.000 m² depo alanı ve 7/24 güvenlik. 15 ilçede 500+ müşteriye sigortalı saklama. Misyon, vizyon ve değerlerimizi okuyun.';
 
 export const metadata: Metadata = {
   title: { absolute: PAGE_TITLE },
@@ -65,7 +65,7 @@ export default function HakkimizdaPage() {
           </h1>
           <span aria-hidden className="bg-red mx-auto mt-4 block h-1 w-16 rounded-full" />
           <p className="text-dark-gray/80 mx-auto mt-5 max-w-2xl text-base md:text-lg">
-            Sarıçam OSB’den 15 ilçeye sigortalı, iklimlendirilmiş depolama
+            Seyhan Yeni Mahalle’den 15 ilçeye sigortalı, iklimlendirilmiş depolama
           </p>
         </Container>
       </header>
@@ -79,7 +79,7 @@ export default function HakkimizdaPage() {
       <HakkimizdaStats />
       <CTASection
         title="Eşyanızı güvenceye alın"
-        subtitle="Ücretsiz keşif, sigortalı ünite ve 15 ilçede aynı kamera standardı. Sarıçam OSB’den randevu alın."
+        subtitle="Ücretsiz keşif, sigortalı ünite ve 15 ilçede aynı kamera standardı. Seyhan Yeni Mahalle’den randevu alın."
       />
       <JsonLd data={aboutJsonLd} />
     </>

@@ -10,7 +10,7 @@ export const kvkkSections: LegalSection[] = [
     heading: '1. Veri sorumlusu',
     paragraphs: [
       'Bu aydınlatma metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) kapsamında veri sorumlusu sıfatıyla Adana Eşya Depolama (“Şirket”) tarafından hazırlanmış bir taslaktır. Metin avukat onayı bekleyen yer tutucudur; yürürlükteki nihai metin noter veya hukuk müşaviri onayı sonrasında güncellenecektir.',
-      'Veri sorumlusu unvanı: Adana Eşya Depolama. Tesis adresi: Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana. Elektronik posta: info@adanaesyadepo.com. Telefon: 0549 215 13 15.',
+      'Veri sorumlusu unvanı: Adana Eşya Depolama. Tesis adresi: Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana. Elektronik posta: info@adanaesyadepo.com. Telefon: 0549 215 13 15 / 0322 456 00 76.',
     ],
   },
   {
@@ -178,7 +178,7 @@ export const kullanimSections: LegalSection[] = [
   {
     heading: '2. Hizmetin niteliği',
     paragraphs: [
-      'Sitede sunulan fiyatlar örnektir; gerçek tutar hacim, süre, ilçe, kat/asansör, paketleme ve sigorta seçeneklerine göre keşif sonrası netleşir. “Hemen teklif al” formu bağlayıcı sipariş değildir; teklif niteliğindedir.',
+      'Sitede paket içerikleri tanıtılır; tutarlar yayınlanmaz. Gerçek tutar hacim, süre, ilçe, kat/asansör, paketleme ve sigorta seçeneklerine göre keşif sonrası netleşir. “Hemen teklif al” formu bağlayıcı sipariş değildir; teklif niteliğindedir.',
       'Fiziksel depolama Yeni Mahalle 87005 Sokak No:30 adresindeki tesiste, 7/24 kamera ve kontrollü giriş koşullarıyla yürütülür. Koridorlara refakatsiz giriş yoktur.',
     ],
   },
@@ -198,7 +198,7 @@ export const kullanimSections: LegalSection[] = [
   {
     heading: '5. Sorumluluğun sınırlandırılması',
     paragraphs: [
-      'Sitedeki içerik “olduğu gibi” sunulur. Keşif öncesi fiyat, stok ve müsaitlik bilgisi değişebilir. İnternet kesintisi, barındırma arızası veya üçüncü taraf harita/analiz kesintisinden doğan dolaylı zararlardan, kanunun emredici hükümleri saklı kalmak kaydıyla, sorumluluk kabul edilmez.',
+      'Sitedeki içerik “olduğu gibi” sunulur. Keşif öncesi müsaitlik bilgisi değişebilir. İnternet kesintisi, barındırma arızası veya üçüncü taraf harita/analiz kesintisinden doğan dolaylı zararlardan, kanunun emredici hükümleri saklı kalmak kaydıyla, sorumluluk kabul edilmez.',
       'Depolanan eşyaya ilişkin sorumluluk, imzalanacak saklama sözleşmesi, envanter tutanağı ve sigorta poliçesi kapsamıyla sınırlıdır. Bu web koşulları o sözleşmenin yerine geçmez.',
     ],
   },
@@ -212,7 +212,7 @@ export const kullanimSections: LegalSection[] = [
     heading: '7. Değişiklik, fesih ve uygulanacak hukuk',
     paragraphs: [
       'Koşullar önceden duyuru ile güncellenebilir. “Son güncelleme” tarihi bağlayıcı yayım tarihidir. Site kullanımı Türkiye Cumhuriyeti hukukuna tabidir. Uyuşmazlıklarda Adana mahkemeleri ve icra daireleri yetkilidir; tüketiciler için 6502 sayılı Kanun’daki haklar saklıdır.',
-      'Şikâyet ve bildirimler info@adanaesyadepo.com, 0549 215 13 15 ve Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana adresine iletilir.',
+      'Şikâyet ve bildirimler info@adanaesyadepo.com, 0549 215 13 15, 0322 456 00 76 ve Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana adresine iletilir.',
     ],
   },
 ];

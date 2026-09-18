@@ -6,7 +6,7 @@ import { Container } from '@/components/ui/Container';
 
 const PAGE_TITLE = 'Blog | Adana Eşya Depolama Rehberi';
 const PAGE_DESCRIPTION =
-  'Adana eşya depolama blog: fiyat rehberi, depo seçimi, tadilat, mobilya, öğrenci ve e-ticaret stok yazıları. Güncel ipuçları ve yerel rehberler bu sayfada.';
+  'Adana eşya depolama blog: teklif rehberi, depo seçimi, tadilat, mobilya, öğrenci ve e-ticaret stok yazıları. Güncel ipuçları ve yerel rehberler bu sayfada.';
 
 export const metadata: Metadata = {
   title: { absolute: PAGE_TITLE },

@@ -114,6 +114,15 @@ function LegalContact({ addressLine }: { addressLine: string }) {
             </a>
           </li>
           <li className="flex gap-3">
+            <Phone aria-hidden className="mt-0.5 size-4 shrink-0 text-red" />
+            <a
+              href={`tel:${SITE_CONFIG.phoneLandline}`}
+              className="hover:text-red hover:underline"
+            >
+              {SITE_CONFIG.phoneLandlineDisplay}
+            </a>
+          </li>
+          <li className="flex gap-3">
             <Mail aria-hidden className="mt-0.5 size-4 shrink-0 text-red" />
             <a href={`mailto:${SITE_CONFIG.email}`} className="hover:text-red hover:underline">
               {SITE_CONFIG.email}

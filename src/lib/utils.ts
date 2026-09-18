@@ -6,11 +6,14 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function formatPhone(phone: string): string {
-  // +905XXXXXXXXX -> 0549 215 13 15 formatına çevir
+  // +90XXXXXXXXXX -> 0XXX XXX XX XX
   const cleaned = phone.replace(/\D/g, '');
   if (cleaned.startsWith('90') && cleaned.length >= 12) {
     const local = cleaned.slice(2);
     return `0${local.slice(0, 3)} ${local.slice(3, 6)} ${local.slice(6, 8)} ${local.slice(8, 10)}`;
+  }
+  if (cleaned.startsWith('0') && cleaned.length === 11) {
+    return `${cleaned.slice(0, 4)} ${cleaned.slice(4, 7)} ${cleaned.slice(7, 9)} ${cleaned.slice(9, 11)}`;
   }
   return phone;
 }

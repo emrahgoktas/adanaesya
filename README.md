@@ -70,4 +70,7 @@ Vercel'e deploy: GitHub'a push → Vercel otomatik deploy
 
 ## İletişim
 
-info@adanaesyadepo.com
+- Adres: Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana
+- Telefon: 0549 215 13 15 / 0322 456 00 76
+- E-posta: info@adanaesyadepo.com
+- Site: https://adanaesyadepo.com

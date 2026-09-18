@@ -17,7 +17,7 @@ export interface HeroProps {
   subtitle: string;
   ctaPrimary: HeroCta;
   ctaSecondary?: HeroCta;
-  phone: string;
+  phone?: string;
   badge?: string;
 }
 

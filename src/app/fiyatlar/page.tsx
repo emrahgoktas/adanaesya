@@ -12,9 +12,9 @@ import { fiyatPaketleri } from '@/data/fiyatlar';
 import { getSSSByKategori } from '@/data/sss';
 import { generateFiyatlarSchemas, generateGraphSchema } from '@/lib/schema';
 
-const PAGE_TITLE = 'Adana Eşya Depolama Fiyatları 2026 | Güncel Fiyat Listesi';
+const PAGE_TITLE = 'Depo Paketleri | Ücretsiz Teklif | Adana Eşya Depolama';
 const PAGE_DESCRIPTION =
-  "Adana eşya depolama fiyatları 2026: 1 m³ aylık 750 TL'den başlar. Standart 2.250 TL, Premium 4.000 TL. Sigorta dahil, gizli maliyet yok; ücretsiz keşif alın.";
+  'Adana eşya depolama paketleri: Başlangıç, Standart, Premium ve Kurumsal. Fiyat sitede yayınlanmaz; ücretsiz keşif sonrası net teklif alın.';
 
 const fiyatSSS = getSSSByKategori('fiyat');
 
@@ -40,7 +40,7 @@ export default function FiyatlarPage() {
       <Breadcrumb
         items={[
           { label: 'Ana Sayfa', href: '/' },
-          { label: 'Fiyatlar', href: '/fiyatlar' },
+          { label: 'Paketler', href: '/fiyatlar' },
         ]}
       />
 
@@ -50,13 +50,13 @@ export default function FiyatlarPage() {
             id="fiyatlar-baslik"
             className="text-navy mx-auto max-w-4xl px-2 text-[clamp(1.5rem,3.8vw,2.5rem)] leading-[1.2] font-extrabold"
           >
-            Adana Eşya Depolama
+            Depo Paketleri
             <br />
-            Fiyatları 2026
+            Ücretsiz Teklif
           </h1>
           <span aria-hidden className="bg-red mx-auto mt-4 block h-1 w-16 rounded-full" />
           <p className="text-dark-gray/80 mx-auto mt-5 max-w-2xl text-base md:text-lg">
-            Şeffaf fiyatlandırma, gizli maliyet yok
+            Fiyat için iletişime geçin; keşif sonrası net teklif yazılır
           </p>
         </Container>
       </header>
@@ -64,10 +64,10 @@ export default function FiyatlarPage() {
       <PricingTable hideTitle />
       <FiyatComparisonTable />
       <FiyatFactors />
-      <FAQAccordion items={fiyatSSS} title="Fiyatlar Hakkında Sıkça Sorulan Sorular" />
+      <FAQAccordion items={fiyatSSS} title="Teklif ve paketler hakkında SSS" />
       <CTASection
-        title="Net fiyat için ücretsiz keşif alın"
-        subtitle="Hacim ve süre keşifte ölçülür; teklifte gizli kalem olmaz. 2026 tarifesini ilçenize göre netleştirelim."
+        title="Fiyat için ücretsiz keşif alın"
+        subtitle="Hacim, süre ve taşıma keşifte ölçülür. Gizli kalem olmadan yazılı teklif iletiriz."
       />
       <FAQJsonLd items={fiyatSSS} />
     </>

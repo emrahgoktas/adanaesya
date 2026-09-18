@@ -27,13 +27,13 @@ export const hizmetler: Hizmet[] = [
     icon: 'Package',
     metaTitle: 'Adana Kişisel Eşya Depolama | 1-12 Ay Geçici Depo',
     metaDescription:
-      "Adana'da 1-12 ay arası kişisel eşya depolama hizmeti. 7/24 güvenlikli, iklimlendirilmiş depolar. Ücretsiz keşif ve taşıma desteği. Sigortalı depo sizi bekliyor.",
+      "Adana'da 1-12 ay arası kişisel eşya depolama hizmeti. 7/24 güvenlikli, iklimlendirilmiş depolar. Ücretsiz keşif; taşıma teklifte ayrıca planlanır. Sigortalı depo sizi bekliyor.",
     h1: 'Adana Kişisel Depolama — 1-12 Ay Geçici Depo',
     adHeadline: 'Adana Kişisel Depolama',
     seoHeadline: ' — 1-12 Ay Geçici Depo',
-    ozet: "Taşınma, tadilat veya geçici ayrılık döneminde kişisel eşyanızı Adana Sarıçam OSB'deki 7/24 kamera izlemeli, sigortalı ünitelerde 1–12 ay saklayın.",
+    ozet: "Taşınma, tadilat veya geçici ayrılık döneminde kişisel eşyanızı Adana Seyhan Yeni Mahalle’deki 7/24 kamera izlemeli, sigortalı ünitelerde 1–12 ay saklayın.",
     icerik: [
-      "Kişisel eşya depolama, evdeki odayı koli ve koltukla doldurmadan hayatın akışını sürdürmek isteyenler içindir. Adana'da tadilat, kira kontratı boşluğu veya aile büyürken eşyanın bir kısmını güvenli bir adrese taşımak sık görülür. Sarıçam OSB'deki tesisimizde 1 m³'lük koli ünitesinden 30 m³'lük oda ölçeğine kadar esnek alan kiralanır.",
+      "Kişisel eşya depolama, evdeki odayı koli ve koltukla doldurmadan hayatın akışını sürdürmek isteyenler içindir. Adana'da tadilat, kira kontratı boşluğu veya aile büyürken eşyanın bir kısmını güvenli bir adrese taşımak sık görülür. Seyhan Yeni Mahalle’deki tesisimizde 1 m³'lük koli ünitesinden 30 m³'lük oda ölçeğine kadar esnek alan kiralanır.",
       'Teslimattan önce ücretsiz keşifte koli sayısı, büyük parça ölçüleri ve asansör kısıtları not edilir. Eşya etiketlenir, envanter tutanağı imzalanır ve 7/24 kamera, alarm ile yangın–su baskını önlemleri altında durur. İklimlendirilmiş koridorlar ahşap mobilya, tekstil ve ev aletlerini nemden korur.',
       'Süre 1 aydan 12 aya kadar uzatılabilir; erken boşaltmada kalan günler netleştirilir. İsterseniz paketleme ve taşıma ekibimiz Seyhan, Yüreğir, Çukurova ve Sarıçam adreslerinden yükler. Teslim gününde aynı listeyle eşyanızı eksiksiz geri alırsınız.',
       'Kısa dönem tadilat deposu ile uzun kiralık dönem aynı kapıdan yönetilir. Sözleşmede metrekare, başlangıç tarihi ve erişim kuralları yazılıdır; gizli masraf yoktur. İsteğe bağlı sigorta, yüksek değerli elektronik ve antika parçalar için önerilir.',
@@ -70,17 +70,17 @@ export const hizmetler: Hizmet[] = [
           'Kışla döneminde ev kiralıktan çıkıyorsa koliler ve küçük ev aletleri aile yanında yer kaplamaz; dönüşte aynı envanterle teslim alınır.',
       },
     ],
-    fiyatAraligi: "Aylık 750 TL'den başlayan fiyatlarla",
+    fiyatAraligi: "Fiyat için iletişime geçin — ücretsiz keşif sonrası net teklif",
     sss: [
       {
         soru: 'Kişisel eşya depolama en az kaç ay kiralanır?',
         cevap:
-          'Minimum süre 1 aydır. 3, 6 ve 12 aylık paketlerde birim fiyat düşer. Süre bitmeden uzatma talebi yazılı olarak alınır.',
+          'Minimum süre 1 aydır. 3, 6 ve 12 aylık paketlerde birim tarife avantajlıdır. Süre bitmeden uzatma talebi yazılı olarak alınır.',
       },
       {
         soru: 'Depoya kendi aracımla eşya bırakabilir miyim?',
         cevap:
-          "Evet. Randevu saatinde Sarıçam OSB'deki tesise gelebilirsiniz. İsterseniz paketleme ve taşıma ekibimiz evinizden teslim alır.",
+          "Evet. Randevu saatinde Seyhan Yeni Mahalle’deki tesise gelebilirsiniz. İsterseniz paketleme ve taşıma ekibimiz evinizden teslim alır.",
       },
       {
         soru: 'Eşyama ne zaman erişebilirim?',
@@ -117,7 +117,7 @@ export const hizmetler: Hizmet[] = [
     seoHeadline: ' — Nem Kontrollü Güvenli Depo',
     ozet: 'Koltuk takımı, yatak, masa ve dolaplarınız Adana deposunda battaniyeli, nem kontrollü ve sigortalı ünitelerde dikey ve yatay olarak korunur.',
     icerik: [
-      "Mobilya, koli eşyasından farklıdır: cila, kumaş ve menteşe nem, toz ve üst üste istifte bozulur. Adana'nın yaz nemi bodrum ve açık garajı riskli kılar. Sarıçam OSB'deki mobilya koridorlarında parçalar battaniye ve köşe koruyucu ile ayrılır; koltuk kolunun üzerine dolap basılmaz.",
+      "Mobilya, koli eşyasından farklıdır: cila, kumaş ve menteşe nem, toz ve üst üste istifte bozulur. Adana'nın yaz nemi bodrum ve açık garajı riskli kılar. Seyhan Yeni Mahalle’deki mobilya koridorlarında parçalar battaniye ve köşe koruyucu ile ayrılır; koltuk kolunun üzerine dolap basılmaz.",
       'Ücretsiz keşifte kapı genişliği, asansör kabini ve merdiven dönüşü ölçülür. Sökülebilir yatak başlığı, masa ayağı ve dolap kapağı numaralanır; kurulum notu teslim dosyasına eklenir. Taşıma ekibi site yasak saatlerine göre yükler.',
       'Kısa tadilat deposu ile uzun kiralık dönem aynı standarttadır. Deri koltuk ve masif masa iklimlendirilmiş alanda durur. Teslimde fotoğraflı envanter ile hasar kaydı tutulur; iade gününde aynı açıdan kontrol edilir.',
       'Çukurova ve Seyhan sitelerindeki dar asansörler için küçük kamyonet ve kayışlı indirme planlanır. İsterseniz yalnızca depolama, isterseniz paketleme + taşıma + yerleştirme tek faturada birleşir.',
@@ -154,7 +154,7 @@ export const hizmetler: Hizmet[] = [
           'Yazlık veya yayla evindeki bahçe ve salon mobilyası kışın tuz ve neme kalmaz; sezon açılışında aynı listeyle iner.',
       },
     ],
-    fiyatAraligi: "Aylık 1.200 TL'den başlayan fiyatlarla",
+    fiyatAraligi: "Fiyat için iletişime geçin — ücretsiz keşif sonrası net teklif",
     sss: [
       {
         soru: 'Mobilyalar sökülmeden depolanır mı?',
@@ -195,13 +195,13 @@ export const hizmetler: Hizmet[] = [
     icon: 'FolderArchive',
     metaTitle: 'Adana Kurumsal Arşiv Depolama | Güvenli Belge Deposu',
     metaDescription:
-      "Adana'da şirket evrak ve arşiv kutuları için 7/24 güvenlikli depolama. Raf, etiket ve iade prosedürü. KVKK uyumlu teslim ve erişim kaydı Sarıçam OSB'de.",
+      "Adana'da şirket evrak ve arşiv kutuları için 7/24 güvenlikli depolama. Raf, etiket ve iade prosedürü. KVKK uyumlu teslim ve erişim kaydı Seyhan Yeni Mahalle’de.",
     h1: 'Adana Kurumsal Arşiv — Güvenli Belge ve Kutu Deposu',
     adHeadline: 'Adana Kurumsal Arşiv',
     seoHeadline: ' — Güvenli Belge ve Kutu Deposu',
     ozet: "Muhasebe, hukuk ve insan kaynakları arşivini ofis dışına alın; Adana'da raf sistemli, erişim kayıtlı ve kamera izlemeli kurumsal depolama.",
     icerik: [
-      'Ofis kirasının metrekare maliyeti arşiv odasını pahalı bir depo haline getirir. Adana’daki şirketler 10 yıllık fatura, sözleşme ve personel dosyasını Sarıçam OSB’de paletli veya raflı kutularda tutar. Her kutu barkod/etiket alır; oda planı teslim dosyasına işlenir.',
+      'Ofis kirasının metrekare maliyeti arşiv odasını pahalı bir depo haline getirir. Adana’daki şirketler 10 yıllık fatura, sözleşme ve personel dosyasını Seyhan Yeni Mahalle’de paletli veya raflı kutularda tutar. Her kutu barkod/etiket alır; oda planı teslim dosyasına işlenir.',
       'Erişim yetkili kişi listesine bağlıdır. Tesisten kutu çıkışı tutanak ve kamera kaydıyla yapılır; iade aynı kodla rafa döner. Yangın söndürme, su baskını eşiği ve 7/24 alarm ticari arşiv standardındadır.',
       'KVKK ve saklama süreleri sizin iç yönergenize aittir; biz fiziksel güvenlik, izlenebilirlik ve teslim zinciri sağlar. İmha talebi yazılı olur, tutanakla imha veya size iade edilir. Dijital medya (HDD, yedek kaset) ayrı nem kontrollü dolapta durabilir.',
       'Çukurova ve Seyhan ofislerinden periyodik kutu seferi planlanır. Yoğun dönem (vergi, denetim) öncesi acil kutu çağırma aynı gün veya ertesi iş günü hedeflenir.',
@@ -238,7 +238,7 @@ export const hizmetler: Hizmet[] = [
           'Hukuk dosyaları yasal süre dolana kadar ofis dışında, erişim kısıtlı koridorda bekler; süre bitince imha tutanağı kesilir.',
       },
     ],
-    fiyatAraligi: "Aylık 2.000 TL'den başlayan fiyatlarla",
+    fiyatAraligi: "Fiyat için iletişime geçin — ücretsiz keşif sonrası net teklif",
     sss: [
       {
         soru: 'Kutu boyutları standart mı?',
@@ -268,7 +268,7 @@ export const hizmetler: Hizmet[] = [
       {
         soru: 'Fatura nasıl kesilir?',
         cevap:
-          'Aylık kira + kutu/palet adedi + sefer ücreti ticari fatura ile kesilir. Sözleşme ekinde birim fiyat listesi bulunur.',
+          'Aylık kira + kutu/palet adedi + sefer ücreti ticari fatura ile kesilir. Sözleşme ekinde birim tarife listesi bulunur.',
       },
     ],
   },
@@ -279,26 +279,26 @@ export const hizmetler: Hizmet[] = [
     icon: 'Boxes',
     metaTitle: 'Adana E-ticaret Stok Depolama | Paletli Güvenli Depo',
     metaDescription:
-      "Adana'da e-ticaret palet ve koli stoğu için 7/24 güvenlikli depolama. SKU etiket, forklift ve esnek hacim. Ücretsiz keşif ve net fiyat Sarıçam OSB'de.",
+      "Adana'da e-ticaret palet ve koli stoğu için 7/24 güvenlikli depolama. SKU etiket, forklift ve esnek hacim. Ücretsiz keşif Seyhan Yeni Mahalle’de.",
     h1: 'Adana E-ticaret Deposu — Paletli Stok ve Koli Alanı',
     adHeadline: 'Adana E-ticaret Deposu',
     seoHeadline: ' — Paletli Stok ve Koli Alanı',
     ozet: "Trendyol, Hepsiburada veya kendi siteniz için Adana'da paletli stok, koli ve iade ürünlerini kamera izlemeli depoda esnek hacimle saklayın.",
     icerik: [
-      'Küçük ve orta e-ticaret işletmeleri tam kapsamlı 3PL’ye geçmeden önce palet ve sezon stoğunu güvenli bir adreste tutmak ister. Sarıçam OSB konumu kargo şubelerine ve şehir içi kuryeye yakındır. SKU veya parti koduyla palet yerleri planlanır; karışık koli ayrı koridorda durur.',
+      'Küçük ve orta e-ticaret işletmeleri tam kapsamlı 3PL’ye geçmeden önce palet ve sezon stoğunu güvenli bir adreste tutmak ister. Seyhan Yeni Mahalle konumu kargo şubelerine ve şehir içi kuryeye yakındır. SKU veya parti koduyla palet yerleri planlanır; karışık koli ayrı koridorda durur.',
       'Forklift ve transpalet ile indirme yapılır. Yanıcı, bozulur gıda ve açık kimyasal kabul edilmez; tekstil, ev, kırtasiye ve ambalajlı tüketim ürünleri uygundur. 7/24 kamera ve alarm, gece teslimat penceresini de kapsar.',
       'Sezon kampanyası öncesi hacim büyütülür, sonrasında küçültülür. İade ürün paleti “karantina” alanında ayrılabilir. Tam fulfillment (tek tek sipariş toplama) bu paketin zorunlu parçası değildir; stok parkı ve toplu sevkiyat odaklıdır.',
-      'Ücretsiz keşifte palet adedi, istif yüksekliği ve kargo araç tipi netleşir. Aylık m² veya palet başı fiyat, sözleşme ekinde yazılır. Çukurova ve Ceyhan üreticilerinden düzenli sefer bağlanabilir.',
+      'Ücretsiz keşifte palet adedi, istif yüksekliği ve kargo araç tipi netleşir. Aylık m² veya palet başı tarife, sözleşme ekinde yazılır. Çukurova ve Ceyhan üreticilerinden düzenli sefer bağlanabilir.',
     ],
     ozellikler: [
       'Palet ve koli için ayrı koridor planı',
       'Forklift / transpalet ile indirme',
       'SKU veya parti kodu etiketleme',
       'Sezonluk hacim büyütme–küçültme',
-      '7/24 kamera, alarm ve OSB konumu',
+      '7/24 kamera, alarm ve Seyhan konumu',
       'İade ürün karantina alanı (opsiyonel)',
       'Kargo aracına yükleme randevusu',
-      'Palet başı veya m² bazlı fiyat',
+      'Palet başı veya m² bazlı teklif',
     ],
     senaryolar: [
       {
@@ -322,7 +322,7 @@ export const hizmetler: Hizmet[] = [
           'Site, pazaryeri ve toptan aynı SKU’yu paylaşır. Palet yer kodu ile kanal bazlı çıkış tutanağı tutulur.',
       },
     ],
-    fiyatAraligi: "Aylık 1.500 TL'den başlayan fiyatlarla",
+    fiyatAraligi: "Fiyat için iletişime geçin — ücretsiz keşif sonrası net teklif",
     sss: [
       {
         soru: 'Tek tek sipariş toplayıp kargolar mısınız?',
@@ -337,7 +337,7 @@ export const hizmetler: Hizmet[] = [
       {
         soru: 'Minimum palet adedi nedir?',
         cevap:
-          'Tek paletten başlanabilir; birim fiyat adet arttıkça düşer. Küçük koli için m³ tarifesi uygulanır.',
+          'Tek paletten başlanabilir; adet arttıkça birim avantajlıdır. Küçük koli için m³ tarifesi uygulanır; tutar teklifte yazılır.',
       },
       {
         soru: 'Stok sayımı yapıyor musunuz?',
@@ -347,7 +347,7 @@ export const hizmetler: Hizmet[] = [
       {
         soru: 'Gece kamyon gelebilir mi?',
         cevap:
-          'Önceden randevu ve OSB giriş kurallarıyla sınırlı gece indirme planlanabilir. Güvenlik kaydı tutulur.',
+          'Önceden randevu ve tesis güvenlik kurallarıyla sınırlı gece indirme planlanabilir. Güvenlik kaydı tutulur.',
       },
       {
         soru: 'Hasarlı palet kimin sorumluluğu?',
@@ -363,13 +363,13 @@ export const hizmetler: Hizmet[] = [
     icon: 'GraduationCap',
     metaTitle: 'Adana Öğrenci Eşya Depolama | Dönem Arası Güvenli Depo',
     metaDescription:
-      "Adana'da yaz tatili ve dönem arası öğrenci eşya depolama. Valiz, koli ve küçük ev aleti için 7/24 güvenli depo. Uygun fiyatlı kısa dönem paketleri alın.",
+      "Adana'da yaz tatili ve dönem arası öğrenci eşya depolama. Valiz, koli ve küçük ev aleti için 7/24 güvenli depo. Kısa dönem paketleri için teklif alın.",
     h1: 'Adana Öğrenci Depolama — Dönem Arası Güvenli Depo',
     adHeadline: 'Adana Öğrenci Depolama',
     seoHeadline: ' — Dönem Arası Güvenli Depo',
-    ozet: 'Çukurova Üniversitesi ve yurt çevresindeki öğrenciler yazın odayı boşaltır; valiz, koli ve küçük ev aletleri Adana deposunda uygun fiyata bekler.',
+    ozet: 'Çukurova Üniversitesi ve yurt çevresindeki öğrenciler yazın odayı boşaltır; valiz, koli ve küçük ev aletleri Adana deposunda güvenle bekler.',
     icerik: [
-      'Dönem bitince yurt veya stüdyo teslimi çoğu öğrenciyi eşyayı memlekete kargolama veya sokağa bırakma ikilemine sokar. Balcalı, Çukurova ve Seyhan hattındaki öğrenciler için Sarıçam OSB’de küçük m³ üniteleri yaz tatiline göre fiyatlanır. Valiz, koli, lamba ve mini fırın etiketlenir.',
+      'Dönem bitince yurt veya stüdyo teslimi çoğu öğrenciyi eşyayı memlekete kargolama veya sokağa bırakma ikilemine sokar. Balcalı, Çukurova ve Seyhan hattındaki öğrenciler için Seyhan Yeni Mahalle’de küçük m³ üniteleri yaz tatiline göre planlanır. Valiz, koli, lamba ve mini fırın etiketlenir.',
       'Teslimat kampüs veya yurt kapısından randevulu alınabilir; öğrenci kimliği ve iletişim bilgisi kayda geçer. 7/24 kamera ve alarm standardı kişisel depolama ile aynıdır. Yanıcı tüp, bozulur gıda ve yasa dışı madde kabul edilmez.',
       'Haziran–Eylül yaz paketi en sık tercih edilen süredir. Güz döneminde aynı gün iade hedeflenir; uzatma SMS/telefon ile yapılır. Oda arkadaşı adına teslim için yazılı yetki istenir.',
       'Bütçe dostu tarife, aile evine kargo maliyetinden çoğu zaman düşüktür. İsteğe bağlı streç ve koli satışı tesiste vardır; paketlemeyi kendiniz de yapabilirsiniz.',
@@ -380,7 +380,7 @@ export const hizmetler: Hizmet[] = [
       'Kampüs / yurt kapısından randevulu alım',
       '7/24 kamera ve alarm',
       'Öğrenci kimliği ile kayıt',
-      'Uygun fiyatlı tarife',
+      'Öğrenciye özel teklif',
       'Yazılı yetki ile üçüncü kişi teslimi',
       'İsteğe bağlı koli ve streç satışı',
     ],
@@ -406,17 +406,17 @@ export const hizmetler: Hizmet[] = [
           'İş ararken Adana’da kalmayacaksınız. Ev eşyasını 1–3 ay depoya alıp işe yerleşince memlekete veya yeni şehre taşırsınız.',
       },
     ],
-    fiyatAraligi: "Aylık 500 TL'den başlayan fiyatlarla",
+    fiyatAraligi: "Fiyat için iletişime geçin — ücretsiz keşif sonrası net teklif",
     sss: [
       {
         soru: 'Öğrenci indirimi nasıl uygulanır?',
         cevap:
-          'Güncel öğrenci belgesi veya yurt kartı kayıtta gösterilir. Yaz paketi fiyatı teklifte ayrıca belirtilir.',
+          'Güncel öğrenci belgesi veya yurt kartı kayıtta gösterilir. Yaz paketi tutarı teklifte ayrıca belirtilir.',
       },
       {
         soru: 'En küçük ünite ne kadar tutar?',
         cevap:
-          'Birkaç valiz ve koli için 1–2 m³ yeterlidir. Aylık taban fiyat 500 TL’den başlar; hacim artınca birim düşer.',
+          'Birkaç valiz ve koli için 1–2 m³ yeterlidir. Hacim ve süre keşifte netleşir; yazılı teklif iletilir.',
       },
       {
         soru: 'Arkadaşım benim yerime teslim alabilir mi?',

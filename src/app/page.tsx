@@ -36,7 +36,7 @@ const FacilityGallery = dynamic(() =>
 export const metadata: Metadata = {
   title: 'Adana Eşya Depolama | Güvenli ve Sigortalı Depo Hizmeti',
   description:
-    "Adana'da 7/24 kamera izlemeli, sigortalı ve iklimlendirilmiş eşya depolama. 15 ilçede ücretsiz keşif, taşıma desteği ve güvenli depo çözümleri sizi bekliyor.",
+    "Adana'da 7/24 kamera izlemeli, sigortalı ve iklimlendirilmiş eşya depolama. 15 ilçede ücretsiz keşif; taşıma teklifte ayrıca planlanır.",
   alternates: { canonical: '/' },
 };
 
@@ -50,10 +50,12 @@ export default function HomePage() {
       <Hero
         adHeadline="Adana Eşya Depolama"
         seoHeadline=" — Güvenli ve Sigortalı Depo Hizmeti"
-        subtitle="Adana'nın 15 ilçesinde 7/24 kamera izlemeli, iklimlendirilmiş depolar. Ücretsiz keşif ve taşıma desteği."
-        ctaPrimary={{ text: 'Hemen Teklif Al', href: '/iletisim' }}
-        ctaSecondary={{ text: 'Fiyatları Gör', href: '/fiyatlar' }}
-        phone={SITE_CONFIG.phone}
+        subtitle="Adana'nın 15 ilçesinde 7/24 kamera izlemeli, iklimlendirilmiş depolar. Ücretsiz keşif alın; taşıma ihtiyacınız teklifte netleşir."
+        ctaPrimary={{
+          text: SITE_CONFIG.phoneDisplay,
+          href: `tel:${SITE_CONFIG.phone}`,
+        }}
+        ctaSecondary={{ text: 'Paketler', href: '/fiyatlar' }}
       />
       <TrustBar />
       <ServiceCards services={hizmetler} />

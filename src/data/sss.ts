@@ -10,28 +10,28 @@ export const genelSSS: SSSItem[] = [
     id: 'sss-1',
     soru: 'Adana eşya depolama fiyatları ne kadar?',
     cevap:
-      "Adana'da eşya depolama fiyatları depo büyüklüğüne ve süreye göre değişir. 1 m³ depo aylık 750 TL'den başlar. Detaylı fiyat için ücretsiz keşif talep edebilirsiniz.",
+      'Fiyatlar sitede yayınlanmaz. Ünite hacmi, süre, ilçe ve taşıma ihtiyacına göre ücretsiz keşif sonrası yazılı net teklif iletilir. Form veya WhatsApp ile hızlıca talep edebilirsiniz.',
     kategori: 'fiyat',
   },
   {
     id: 'sss-2',
     soru: 'Yıllık kiralama yaparsam indirim var mı?',
     cevap:
-      'Evet. Yıllık paketlerde yaklaşık iki ay ücretsiz olacak şekilde tarife düşer. Örneğin Başlangıç paketi aylık 750 TL iken yıllık 7.500 TL’dir. Güncel oran keşif teklifinde yazılır.',
+      'Evet. Uzun dönem (6–12 ay) kiralamada birim tarife avantajlıdır. Güncel oran ve süre indirimi keşif teklifinde yazılır.',
     kategori: 'fiyat',
   },
   {
     id: 'sss-3',
     soru: 'Fiyata sigorta, keşif ve taşıma dahil mi?',
     cevap:
-      'Paket fiyatına ünite kirası ve 7/24 güvenlik dahildir. Başlangıç paketinde temel sigorta kapsamı vardır. Keşif ücretsizdir. Paketleme ve evden alma ayrı kalem olarak teklifte görünür.',
+      'Teklifte ünite kirası ve 7/24 güvenlik kalemleri net yazılır. Başlangıç paketinde temel sigorta kapsamı vardır. Keşif ücretsizdir. Paketleme ve evden alma / taşıma ayrı kalem olarak teklifte görünür; ücretsiz taşıma yoktur.',
     kategori: 'fiyat',
   },
   {
     id: 'sss-4',
     soru: 'Öğrenci ve kısa dönem tadilat tarifesi farklı mı?',
     cevap:
-      'Öğrenci yaz paketleri küçük m³ için 500 TL’den başlar. Tadilat gibi 1–3 aylık kullanımlarda aylık tarife geçerlidir; 6 ve 12 ayda birim fiyat düşer.',
+      'Öğrenci yaz paketleri ve tadilat gibi kısa dönem kullanımlar için ayrı tarife uygulanır. 6 ve 12 ayda birim avantaj artar; tutarlar keşif sonrası netleşir.',
     kategori: 'fiyat',
   },
   {
@@ -122,7 +122,7 @@ export const genelSSS: SSSItem[] = [
     id: 'sss-17',
     soru: 'Evimden alım ve depoya teslim nasıl planlanır?',
     cevap:
-      'Randevulu ekip site yasak saatlerine göre gelir. Dar sokak ve asansör için küçük kamyonet seçilir. İsterseniz kendi aracınızla Sarıçam OSB’ye bırakabilirsiniz.',
+      'Randevulu ekip site yasak saatlerine göre gelir. Dar sokak ve asansör için küçük kamyonet seçilir. İsterseniz kendi aracınızla Seyhan Yeni Mahalle’ye bırakabilirsiniz.',
     kategori: 'lojistik',
   },
   {
@@ -143,7 +143,7 @@ export const genelSSS: SSSItem[] = [
     id: 'sss-20',
     soru: 'Gece veya hafta sonu teslimat var mı?',
     cevap:
-      'Mesai saatlerinde randevu esastır. OSB giriş kurallarına uygun sınırlı gece indirme önceden planlanabilir. Acil erişim güvenlik kaydı tutularak aynı gün ayarlanır.',
+      'Mesai saatlerinde randevu esastır. Tesis güvenlik kurallarına uygun sınırlı gece indirme önceden planlanabilir. Acil erişim güvenlik kaydı tutularak aynı gün ayarlanır.',
     kategori: 'lojistik',
   },
   {
@@ -171,7 +171,7 @@ export const genelSSS: SSSItem[] = [
     id: 'sss-24',
     soru: 'Adresiniz neresi, nasıl gelirim?',
     cevap:
-      'Tesis Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana adresindedir. Harita bu sayfadadır. Kendi aracınızla bırakma veya randevulu evden alım planlanır; OSB giriş kurallarına uyulur.',
+      'Tesis Yeni Mahalle 87005 Sokak No:30, Seyhan / Adana adresindedir. Harita bu sayfadadır. Kendi aracınızla bırakma veya randevulu evden alım planlanır; tesis giriş kurallarına uyulur.',
     kategori: 'iletisim',
   },
   {

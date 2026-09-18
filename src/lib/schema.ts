@@ -114,14 +114,6 @@ function personId(name: string): string {
   return `${SITE_CONFIG.url}/#person-${slug || 'yazar'}`;
 }
 
-function parseStartingPrice(fiyatAraligi: string): number | undefined {
-  const normalized = fiyatAraligi.replaceAll('.', '');
-  const match = normalized.match(/(\d+)\s*TL/i);
-  if (!match) return undefined;
-  const value = Number(match[1]);
-  return Number.isFinite(value) ? value : undefined;
-}
-
 function withoutContext(node: JsonLdObject): JsonLdObject {
   return Object.fromEntries(Object.entries(node).filter(([key]) => key !== '@context'));
 }
@@ -143,7 +135,7 @@ export function generateLocalBusinessSchema(): JsonLdObject {
     url: SITE_CONFIG.url,
     telephone: SITE_CONFIG.whatsapp,
     email: SITE_CONFIG.email,
-    priceRange: '₺₺',
+    priceRange: 'Teklif üzerine',
     address: postalAddress(),
     geo: geoCoordinates(),
     openingHoursSpecification: openingHours(),
@@ -162,12 +154,12 @@ export function generateSelfStorageSchema(ilce?: Ilce): JsonLdObject {
       '@id': SELF_STORAGE_ID,
       name: SITE_CONFIG.name,
       description:
-        'Adana genelinde 7/24 kamera izlemeli, sigortalı ve iklimlendirilmiş eşya depolama tesisi. 15 ilçede ücretsiz keşif ve teslimat.',
+        'Adana genelinde 7/24 kamera izlemeli, sigortalı ve iklimlendirilmiş eşya depolama tesisi. 15 ilçede ücretsiz keşif; teslimat teklifte planlanır.',
       url: SITE_CONFIG.url,
       image: `${SITE_CONFIG.url}/og.jpg`,
       telephone: SITE_CONFIG.whatsapp,
       email: SITE_CONFIG.email,
-      priceRange: '₺₺',
+      priceRange: 'Teklif üzerine',
       address: postalAddress(),
       geo: geoCoordinates(),
       openingHoursSpecification: openingHours(),
@@ -188,7 +180,7 @@ export function generateSelfStorageSchema(ilce?: Ilce): JsonLdObject {
     image: `${SITE_CONFIG.url}/og/${ilce.slug}.jpg`,
     telephone: SITE_CONFIG.whatsapp,
     email: SITE_CONFIG.email,
-    priceRange: '₺₺',
+    priceRange: 'Teklif üzerine',
     address: {
       ...postalAddress(),
       name: `${ilce.name} hizmet adresi`,
@@ -272,17 +264,15 @@ export function generateServiceSchema(hizmet: Hizmet): JsonLdObject {
 
 export function generateOfferSchema(hizmet: Hizmet): JsonLdObject {
   const pageUrl = absoluteUrl(getHizmetPath(hizmet.slug));
-  const price = parseStartingPrice(hizmet.fiyatAraligi);
 
   return {
     '@context': 'https://schema.org',
     '@type': 'Offer',
     '@id': `${pageUrl}#offer`,
-    name: `${hizmet.name} fiyatı`,
-    description: hizmet.fiyatAraligi,
-    url: `${SITE_CONFIG.url}/fiyatlar`,
+    name: `${hizmet.name} teklifi`,
+    description: 'Ücretsiz keşif sonrası net teklif. Fiyat sitede yayınlanmaz.',
+    url: `${SITE_CONFIG.url}/iletisim`,
     priceCurrency: 'TRY',
-    ...(price !== undefined ? { price: String(price) } : {}),
     availability: 'https://schema.org/InStock',
     itemOffered: {
       '@type': 'Service',
@@ -392,28 +382,16 @@ export function generatePackageOfferSchema(paket: FiyatPaketi): JsonLdObject {
     '@type': 'Offer',
     '@id': `${productId}-offer`,
     name: `${paket.ad} paketi`,
-    url: `${SITE_CONFIG.url}/fiyatlar`,
+    url: `${SITE_CONFIG.url}/iletisim`,
     priceCurrency: 'TRY',
     availability: 'https://schema.org/InStock',
+    description: 'Ücretsiz keşif sonrası teklif üzerine fiyatlandırılır.',
     itemOffered: {
       '@type': 'Product',
       '@id': productId,
       name: `${paket.ad} Eşya Depolama Paketi`,
     },
     seller: localBusinessRef(),
-    ...(paket.teklifUzerine
-      ? {
-          description: 'Teklif üzerine fiyatlandırılır.',
-        }
-      : {
-          price: String(paket.aylikFiyat),
-          priceSpecification: {
-            '@type': 'UnitPriceSpecification',
-            price: paket.aylikFiyat,
-            priceCurrency: 'TRY',
-            unitText: 'MONTH',
-          },
-        }),
   };
 }
 

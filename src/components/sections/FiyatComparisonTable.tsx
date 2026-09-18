@@ -129,7 +129,7 @@ export function FiyatComparisonTable() {
         </div>
 
         <p className="mt-4 text-center text-sm text-dark-gray/70">
-          Karşılaştırma örnek tarifeye göredir; net kalemler keşif teklifinde yazılır.
+          Karşılaştırma paket içeriğine göredir; tutarlar ücretsiz keşif teklifinde yazılır.
         </p>
       </Container>
     </section>

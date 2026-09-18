@@ -11,10 +11,6 @@ import { fiyatPaketleri, type FiyatPaketi } from '@/data/fiyatlar';
 import { fadeUpItem, staggerContainer } from '@/lib/motion';
 import { cn } from '@/lib/utils';
 
-function formatAylikFiyat(paket: FiyatPaketi): string {
-  return `${paket.aylikFiyat.toLocaleString('tr-TR')} TL`;
-}
-
 export interface PricingTableProps {
   packages?: FiyatPaketi[];
   className?: string;
@@ -38,8 +34,8 @@ export function PricingTable({
             id="fiyatlar-baslik"
             align="center"
             className="mb-10 lg:mb-14"
-            title="Adana Eşya Depolama Fiyatları 2026"
-            subtitle="Şeffaf fiyatlandırma, gizli maliyet yok"
+            title="Depo paketleri"
+            subtitle="Fiyat için ücretsiz keşif alın; net teklif hacim ve süreye göre yazılır"
           />
         )}
 
@@ -52,7 +48,6 @@ export function PricingTable({
         >
           {packages.map((paket) => {
             const isPopular = paket.populer;
-            const showQuote = Boolean(paket.teklifUzerine);
 
             return (
               <motion.li
@@ -63,9 +58,7 @@ export function PricingTable({
                 <Card
                   className={cn(
                     'relative flex h-full flex-col p-6',
-                    isPopular
-                      ? 'border-2 border-red shadow-card-hover'
-                      : 'border-navy/10'
+                    isPopular ? 'border-2 border-red shadow-card-hover' : 'border-navy/10'
                   )}
                 >
                   {isPopular ? (
@@ -77,14 +70,10 @@ export function PricingTable({
                   <p className="text-lg font-bold text-navy">{paket.ad}</p>
                   <p className="mt-0.5 text-sm text-dark-gray/70">{paket.hacim}</p>
 
-                  {showQuote ? (
-                    <p className="mt-5 text-3xl leading-none font-extrabold text-red">Teklif Al</p>
-                  ) : (
-                    <p className="mt-5 text-3xl leading-none font-extrabold text-red">
-                      {formatAylikFiyat(paket)}
-                    </p>
-                  )}
-                  <p className="mt-1.5 text-sm text-dark-gray/70">aylık</p>
+                  <p className="mt-5 text-2xl leading-none font-extrabold text-red sm:text-3xl">
+                    Teklif Al
+                  </p>
+                  <p className="mt-1.5 text-sm text-dark-gray/70">Fiyat için iletişime geçin</p>
 
                   <ul className="mt-6 flex flex-1 flex-col gap-2.5">
                     {paket.ozellikler.map((ozellik) => (
@@ -105,7 +94,7 @@ export function PricingTable({
         </motion.ul>
 
         <p className="mt-8 text-center text-sm text-dark-gray/70">
-          Fiyatlar örnektir; gerçek tutarlar keşif sonrası netleşir.
+          Paket içerikleri örnektir; güncel tutar ücretsiz keşif sonrası netleşir.
         </p>
       </Container>
     </section>

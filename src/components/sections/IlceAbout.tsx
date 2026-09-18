@@ -21,7 +21,7 @@ export function IlceAbout({ ilce }: IlceAboutProps) {
         <SectionTitle
           id={headingId}
           title={`${ilce.name} Eşya Depolama Hakkında`}
-          subtitle={`${locative(ilce.name)} ev, ofis ve tadilat kaynaklı eşyayı Sarıçam OSB’deki iklim kontrollü ünitelerde saklıyoruz.`}
+          subtitle={`${locative(ilce.name)} ev, ofis ve tadilat kaynaklı eşyayı Seyhan Yeni Mahalle’deki iklim kontrollü ünitelerde saklıyoruz.`}
           className="mb-8 lg:mb-10"
         />
         <div className="max-w-3xl space-y-4 text-base leading-relaxed text-dark-gray/85 md:text-lg">

@@ -15,20 +15,20 @@ export interface BlogYazisi {
 export const blogYazilari: BlogYazisi[] = [
   {
     slug: 'adana-esya-depolama-fiyatlari-2026',
-    baslik: 'Adana Eşya Depolama Fiyatları 2026 Rehberi',
-    metaTitle: 'Adana Eşya Depolama Fiyatları 2026 | Güncel Fiyat Listesi',
+    baslik: 'Adana Eşya Depolama Teklif Rehberi 2026',
+    metaTitle: 'Adana Eşya Depolama Teklif Rehberi 2026 | Ücretsiz Keşif',
     metaDescription:
-      "Adana'da 2026 eşya depolama fiyatları. 1 m³, 5 m³, 10 m³ depo ücretleri ve maliyet hesaplama rehberi. Güncel tarife bilgileri ve ücretsiz keşif burada.",
-    ozet: "2026'da Adana'da eşya depolama ücretini m³, süre ve taşıma kalemlerine göre nasıl okuyacağınızı anlatıyoruz. 1 m³'ten 10 m³'e örnek tarifeler ve gizli masraftan kaçınma notları bu rehberde.",
+      "Adana'da eşya depolama teklifi nasıl okunur? Hacim, süre, taşıma ve sigorta kalemleri. Fiyat sitede yayınlanmaz; ücretsiz keşif sonrası net teklif alın.",
+    ozet: "2026'da Adana'da eşya depolama teklifini m³, süre ve taşıma kalemlerine göre nasıl okuyacağınızı anlatıyoruz. Paket hacimleri ve gizli masraftan kaçınma notları bu rehberde.",
     kategori: 'rehber',
     yazar: 'Adana Eşya Depolama',
     yayinTarihi: '2026-01-15',
     okumaSuresi: 8,
     gorsel: '/blog/fiyatlar-2026.jpg',
     anahtarKelimeler: [
-      'adana eşya depolama fiyatları',
-      'depo kiralama fiyatları',
-      'eşya depolama ücretleri',
+      'adana eşya depolama teklif',
+      'depo kiralama',
+      'ücretsiz keşif',
     ],
   },
   {
@@ -68,7 +68,7 @@ export const blogYazilari: BlogYazisi[] = [
     baslik: 'Kurumsal Arşiv Depolama ve KVKK Rehberi',
     metaTitle: 'Kurumsal Arşiv ve KVKK | Adana Depolama Rehberi',
     metaDescription:
-      'Şirket evrakını ofis dışında saklarken KVKK, erişim kaydı ve imha tutanağı. Adana’da kurumsal arşiv depolama için yasal ve pratik rehber Sarıçam OSB’de.',
+      'Şirket evrakını ofis dışında saklarken KVKK, erişim kaydı ve imha tutanağı. Adana’da kurumsal arşiv depolama için yasal ve pratik rehber Seyhan Yeni Mahalle’de.',
     ozet: 'Veri sorumlusu sizsiniz; fiziksel güvenlik ve izlenebilir teslim zinciri depoya aittir. Saklama süreleri, yetkili kişi listesi ve yazılı imha Adana arşiv deposunda nasıl işler?',
     kategori: 'sektorel',
     yazar: 'Adana Eşya Depolama',
@@ -82,8 +82,8 @@ export const blogYazilari: BlogYazisi[] = [
     baslik: 'Adana’da E-ticaret Stok Depolama Nasıl Planlanır?',
     metaTitle: 'Adana E-ticaret Stok Depolama | Palet ve Koli',
     metaDescription:
-      'Trendyol ve site stoğunu Adana’da paletli saklamak. SKU etiket, sezon hacmi, iade alanı ve 3PL farkı. OSB konumlu stok parkı rehberi ve net fiyat alın.',
-    ozet: 'Kampanya öncesi paletler ofise sığmaz. Sarıçam OSB’de stok parkı, kargo çıkışı ve iade karantinası — tam fulfillment olmadan e-ticaret deposunu nasıl büyütürsünüz?',
+      'Trendyol ve site stoğunu Adana’da paletli saklamak. SKU etiket, sezon hacmi, iade alanı ve 3PL farkı. Seyhan konumlu stok parkı rehberi ve net fiyat alın.',
+    ozet: 'Kampanya öncesi paletler ofise sığmaz. Seyhan Yeni Mahalle’de stok parkı, kargo çıkışı ve iade karantinası — tam fulfillment olmadan e-ticaret deposunu nasıl büyütürsünüz?',
     kategori: 'sektorel',
     yazar: 'Adana Eşya Depolama',
     yayinTarihi: '2026-05-20',
@@ -136,7 +136,7 @@ export const blogYazilari: BlogYazisi[] = [
     baslik: 'Adana’da Öğrenci Eşya Depolama: Yaz Tatili Rehberi',
     metaTitle: 'Adana Öğrenci Eşya Depolama | Yaz Tatili Rehberi',
     metaDescription:
-      'Çukurova Üniversitesi ve yurt kapanınca valiz nereye gider? Adana’da yaz tatili öğrenci depolama, yetki belgesi ve uygun fiyat paketi burada sizi bekliyor.',
+      'Çukurova Üniversitesi ve yurt kapanınca valiz nereye gider? Adana’da yaz tatili öğrenci depolama, yetki belgesi ve kısa dönem paket teklifi burada sizi bekliyor.',
     ozet: 'Yurt 15 Haziran’da kapanır, Eylül’de açılır. Balcalı ve Seyhan hattındaki öğrenciler valiz ve koliyi memlekete kargolamak yerine yaz paketiyle saklayabilir.',
     kategori: 'yerel',
     yazar: 'Adana Eşya Depolama',

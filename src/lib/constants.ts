@@ -3,18 +3,20 @@ export const SITE_CONFIG = {
   url: 'https://adanaesyadepo.com',
   phone: '+905492151315',
   phoneDisplay: '0549 215 13 15',
+  phoneLandline: '+903224560076',
+  phoneLandlineDisplay: '0322 456 00 76',
   email: 'info@adanaesyadepo.com',
   whatsapp: '+905492151315',
   address: {
     street: 'Yeni Mahalle 87005 Sokak No:30',
     district: 'Seyhan',
     city: 'Adana',
-    postalCode: '',
+    postalCode: '01000',
     country: 'TR',
   },
   geo: {
-    latitude: 36.9912,
-    longitude: 35.3308,
+    latitude: 37.0164,
+    longitude: 35.249,
   },
   social: {
     facebook: 'https://facebook.com/adanadepolama',

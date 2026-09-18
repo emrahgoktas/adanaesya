@@ -78,7 +78,7 @@ export default async function HizmetPage({ params }: Props) {
         seoHeadline={data.seoHeadline}
         subtitle={data.ozet}
         ctaPrimary={{ text: 'Hemen Teklif Al', href: '/iletisim' }}
-        ctaSecondary={{ text: 'Fiyatları Gör', href: '/fiyatlar' }}
+        ctaSecondary={{ text: 'Teklif Al', href: '/fiyatlar' }}
         phone={SITE_CONFIG.whatsapp}
         badge={data.shortName}
       />
@@ -101,7 +101,7 @@ export default async function HizmetPage({ params }: Props) {
       <InternalLinks excludeHizmetSlug={data.slug} />
       <CTASection
         title={`${data.name} için teklif alın`}
-        subtitle={`${data.ozet} Ücretsiz keşif ve 15 ilçede teslimat.`}
+        subtitle={`${data.ozet} Ücretsiz keşif; taşıma teklifte planlanır.`}
       />
     </>
   );

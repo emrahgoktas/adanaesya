@@ -9,7 +9,7 @@ import { getHizmetPath, hizmetler } from '@/data/hizmetler';
 import { getIlcePath, ilceler } from '@/data/ilceler';
 
 const SUGGESTIONS = [
-  { href: '/fiyatlar', label: 'Fiyatlar 2026' },
+  { href: '/fiyatlar', label: 'Teklif Al' },
   { href: '/blog', label: 'Blog rehberleri' },
   { href: '/iletisim', label: 'Ücretsiz keşif' },
   { href: '/hizmetler/ogrenci-esya-depolama', label: 'Öğrenci deposu' },
