@@ -85,7 +85,9 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || 'YOUR_GOOGLE_VERIFICATION_CODE',
+    google:
+      process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION ||
+      'AQFt7UmDEh3EGhO68KawhUhBzLfjNMVbSQxZFlQBn3E',
   },
   icons: {
     icon: [
