@@ -101,7 +101,7 @@ export const metadata: Metadata = {
   },
 };
 
-const gaId = process.env.NEXT_PUBLIC_GA_ID;
+const gaId = process.env.NEXT_PUBLIC_GA_ID || 'G-8865EXK7WC';
 const awId = process.env.NEXT_PUBLIC_AW_ID;
 
 export default function RootLayout({ children }: { children: ReactNode }) {
